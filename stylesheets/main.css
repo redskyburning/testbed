@@ -108,20 +108,13 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-/* line 108, ../scss/main.scss */
-h1, h2, h3, h4, h5, h6, figure, ul, ol, nav, p, div {
-  padding: 0px;
-  margin: 0px 0px 3vmin;
-  box-sizing: border-box;
-}
-
 /* ==========================================================================
    Helper classes
    ========================================================================== */
 /*
  * Image replacement
  */
-/* line 136, ../scss/main.scss */
+/* line 132, ../scss/main.scss */
 .ir {
   background-color: transparent;
   border: 0;
@@ -130,7 +123,7 @@ h1, h2, h3, h4, h5, h6, figure, ul, ol, nav, p, div {
   *text-indent: -9999px;
 }
 
-/* line 144, ../scss/main.scss */
+/* line 140, ../scss/main.scss */
 .ir:before {
   content: "";
   display: block;
@@ -141,7 +134,7 @@ h1, h2, h3, h4, h5, h6, figure, ul, ol, nav, p, div {
 /*
  * Hide from both screenreaders and browsers: h5bp.com/u
  */
-/* line 155, ../scss/main.scss */
+/* line 151, ../scss/main.scss */
 .hidden {
   display: none !important;
   visibility: hidden;
@@ -150,7 +143,7 @@ h1, h2, h3, h4, h5, h6, figure, ul, ol, nav, p, div {
 /*
  * Hide only visually, but have it available for screenreaders: h5bp.com/v
  */
-/* line 164, ../scss/main.scss */
+/* line 160, ../scss/main.scss */
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -166,7 +159,7 @@ h1, h2, h3, h4, h5, h6, figure, ul, ol, nav, p, div {
  * Extends the .visuallyhidden class to allow the element to be focusable
  * when navigated to via the keyboard: h5bp.com/p
  */
-/* line 181, ../scss/main.scss */
+/* line 177, ../scss/main.scss */
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
   clip: auto;
@@ -180,7 +173,7 @@ h1, h2, h3, h4, h5, h6, figure, ul, ol, nav, p, div {
 /*
  * Hide visually and from screenreaders, but maintain layout
  */
-/* line 194, ../scss/main.scss */
+/* line 190, ../scss/main.scss */
 .invisible {
   visibility: hidden;
 }
@@ -196,7 +189,7 @@ h1, h2, h3, h4, h5, h6, figure, ul, ol, nav, p, div {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-/* line 211, ../scss/main.scss */
+/* line 207, ../scss/main.scss */
 .clearfix:before,
 .clearfix:after {
   content: " ";
@@ -205,7 +198,7 @@ h1, h2, h3, h4, h5, h6, figure, ul, ol, nav, p, div {
   /* 2 */
 }
 
-/* line 216, ../scss/main.scss */
+/* line 212, ../scss/main.scss */
 .clearfix:after {
   clear: both;
 }
@@ -214,7 +207,7 @@ h1, h2, h3, h4, h5, h6, figure, ul, ol, nav, p, div {
  * For IE 6/7 only
  * Include this rule to trigger hasLayout and contain floats.
  */
-/* line 225, ../scss/main.scss */
+/* line 221, ../scss/main.scss */
 .clearfix {
   *zoom: 1;
 }
@@ -235,7 +228,7 @@ h1, h2, h3, h4, h5, h6, figure, ul, ol, nav, p, div {
    Inlined to avoid required HTTP connection: h5bp.com/r
    ========================================================================== */
 @media print {
-  /* line 250, ../scss/main.scss */
+  /* line 246, ../scss/main.scss */
   * {
     background: transparent !important;
     color: #000 !important;
@@ -244,18 +237,18 @@ h1, h2, h3, h4, h5, h6, figure, ul, ol, nav, p, div {
     text-shadow: none !important;
   }
 
-  /* line 258, ../scss/main.scss */
+  /* line 254, ../scss/main.scss */
   a,
   a:visited {
     text-decoration: underline;
   }
 
-  /* line 262, ../scss/main.scss */
+  /* line 258, ../scss/main.scss */
   a[href]:after {
     content: " (" attr(href) ")";
   }
 
-  /* line 266, ../scss/main.scss */
+  /* line 262, ../scss/main.scss */
   abbr[title]:after {
     content: " (" attr(title) ")";
   }
@@ -263,33 +256,33 @@ h1, h2, h3, h4, h5, h6, figure, ul, ol, nav, p, div {
   /*
    * Don't show links for images, or javascript/internal links
    */
-  /* line 276, ../scss/main.scss */
+  /* line 272, ../scss/main.scss */
   .ir a:after,
   a[href^="javascript:"]:after,
   a[href^="#"]:after {
     content: "";
   }
 
-  /* line 281, ../scss/main.scss */
+  /* line 277, ../scss/main.scss */
   pre,
   blockquote {
     border: 1px solid #999;
     page-break-inside: avoid;
   }
 
-  /* line 286, ../scss/main.scss */
+  /* line 282, ../scss/main.scss */
   thead {
     display: table-header-group;
     /* h5bp.com/t */
   }
 
-  /* line 291, ../scss/main.scss */
+  /* line 287, ../scss/main.scss */
   tr,
   img {
     page-break-inside: avoid;
   }
 
-  /* line 295, ../scss/main.scss */
+  /* line 291, ../scss/main.scss */
   img {
     max-width: 100% !important;
   }
@@ -298,7 +291,7 @@ h1, h2, h3, h4, h5, h6, figure, ul, ol, nav, p, div {
     margin: 0.5cm;
 }
 
-  /* line 305, ../scss/main.scss */
+  /* line 301, ../scss/main.scss */
   p,
   h2,
   h3 {
@@ -306,7 +299,7 @@ h1, h2, h3, h4, h5, h6, figure, ul, ol, nav, p, div {
     widows: 3;
   }
 
-  /* line 311, ../scss/main.scss */
+  /* line 307, ../scss/main.scss */
   h2,
   h3 {
     page-break-after: avoid;
@@ -315,105 +308,19 @@ h1, h2, h3, h4, h5, h6, figure, ul, ol, nav, p, div {
 /* ==================================
 			   Main
 ================================== */
-/* line 320, ../scss/main.scss */
+/* line 316, ../scss/main.scss */
 html {
   /* *:nth-of-type(even) {
   	background-color:rgba(0,0,0,.1);
   } */
 }
+/* line 318, ../scss/main.scss */
+html * {
+  background-color: rgba(0, 0, 0, 0.1);
+}
 
 /* line 330, ../scss/main.scss */
-body {
-  /* line-height:10vmin; */
-  font-size: 3vmin;
-  line-height: 5vmin;
-}
-
-/* line 336, ../scss/main.scss */
-#viewportWatch {
-  color: #f00;
-  padding: 10px;
-  position: fixed;
-  top: 0px;
-  right: 0px;
-  background-color: rgba(0, 0, 0, 0.2);
-  opacity: 0.3;
-  z-index: 20;
-}
-
-/* line 347, ../scss/main.scss */
 nav {
-  height: 30px;
-  height: 10vmin;
-  width: 100%;
-  margin-bottom: 5vmin;
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  background-color: rgba(180, 180, 180, 0.75);
-  z-index: 10;
-}
-
-/* line 359, ../scss/main.scss */
-#content {
-  text-align: justify;
-  margin-top: 10vmin;
-  padding: 4vmin;
-  /* text-align:justify; */
-  box-sizing: border-box;
-}
-/* line 366, ../scss/main.scss */
-#content figure {
-  background-color: rgba(0, 0, 0, 0.2);
-  /* width:100vmin;
-  height:66vmin;
-  margin:0px -5vmin 5vmin; */
-  height: 46vmin;
-  /* 2:1 */
-  height: 61vmin;
-  /* 3:2 */
-  height: 53vmin;
-  /* 7:4 */
-}
-
-/* line 377, ../scss/main.scss */
-h1, h2, h3, h4, h5, h6 {
-  line-height: 1.5em;
-  text-transform: capitalize;
-  font-weight: normal;
-}
-
-/* line 383, ../scss/main.scss */
-h1 {
-  font-size: 1.5em;
-}
-
-/* line 387, ../scss/main.scss */
-h2 {
-  font-size: 1.25em;
-}
-
-/* line 391, ../scss/main.scss */
-h3, h4, h5, h6 {
-  font-size: 1em;
-  font-weight: bold;
-}
-
-/* line 396, ../scss/main.scss */
-.inset, .insetLeft, .insetRight {
-  width: 42vmin;
-  height: auto;
-  background-color: #333;
-}
-
-/* line 402, ../scss/main.scss */
-.insetLeft {
-  float: left;
-  margin: 0px 4vmin 0px 0px;
-}
-
-/* line 408, ../scss/main.scss */
-.insetRight {
-  float: right;
-  margin: 0px 0px 0px 4vmin;
+  height: 20px;
+  height: 20vm;
 }
