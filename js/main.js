@@ -9,11 +9,23 @@ function vInfo(){
 
 function vWatcher(){
 	$('#viewportWatch').html(vInfo().join(', '));
-	$('body').css('font-size',(vm * .03) + 'px');
+	$('body').css('font-size',(vm * .1) + 'px');
+}
+
+function toggleNav(){
+	var t = $('#siteNav');
+	if(t.hasClass('active')){
+		t.removeClass('active');
+	} else {
+		t.addClass('active');
+	}
 }
 
 $(document).ready(function(){
 	vWatcher();
+	$('#navToggle').click(function(){
+		$('#siteNav').toggle();
+	});
 });
 
 $(window).resize(function() {

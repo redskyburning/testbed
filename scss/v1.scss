@@ -24,16 +24,15 @@ body {
 }
 
 a {
-    color: inherit;
-	text-decoration:none;
+    color: #00e;
 }
 
 a:visited {
-    color: inherit;
+    color: #551a8b;
 }
 
 a:hover {
-    color: inherit;
+    color: #06e;
 }
 
 /*
@@ -280,13 +279,9 @@ h1, h2, h3, h4, h5, h6, figure, ul, ol, nav, p, div {
 
     pre,
     blockquote {
-        background-color:rgba(0,0,0,0.1);
+        border: 1px solid #999;
         page-break-inside: avoid;
     }
-	
-	blockquote {
-		margin:0px;
-	}
 
     thead {
         display: table-header-group; /* h5bp.com/t */
@@ -323,10 +318,19 @@ h1, h2, h3, h4, h5, h6, figure, ul, ol, nav, p, div {
 ================================== */
 
 html {
-	font-size:10vmin;
-	font-family: 'Lato', sans-serif;
-	font-weight:400;
-	color:#333;
+	
+	* {
+	}
+	 
+	/* *:nth-of-type(even) {
+		background-color:rgba(0,0,0,.1);
+	} */
+}
+
+body {
+	/* line-height:10vmin; */
+	font-size:3vmin;
+	line-height:5vmin;
 }
 
 #viewportWatch {
@@ -338,51 +342,55 @@ html {
 	background-color:rgba(0,0,0,0.2);
 	opacity:0.3;
 	z-index:20;
-	font-size:.4em;
 }
 
-$golden: 1.6em;
+nav {
+	height:30px;
+	height:10vmin;
+	width:100%;
+	margin-bottom:5vmin;
+	position:fixed;
+	top:0px;
+	left:0px;
+	background-color:rgba(180,180,180,.75);
+	z-index:10;
+}
+
+#content {
+	text-align:justify;
+	margin-top:10vmin;
+	padding:4vmin;
+	/* text-align:justify; */
+	box-sizing:border-box;
+	
+	figure {
+		background-color:rgba(0,0,0,0.2);
+		/* width:100vmin;
+		height:66vmin;
+		margin:0px -5vmin 5vmin; */
+		height:46vmin; /* 2:1 */
+		height:61vmin; /* 3:2 */
+		height:53vmin; /* 7:4 */
+	}
+}
 
 h1, h2, h3, h4, h5, h6 {
+	line-height:1.5em;
 	text-transform:capitalize;
-	font-family: 'Oswald', sans-serif;
-	font-weight:300;
-	line-height:$golden;
-	
-}
-
-h1, h3, h5, h6 {
-	font-weight:400;
+	font-weight:normal;
 }
 
 h1 {
-	font-size:.6em;
-	margin-bottom:.83em;
+	font-size:1.5em;
 }
 
 h2 {
-	font-size:.5em;
-	margin-bottom:1em;
+	font-size:1.25em;
 }
 
-h3, h4 {
-	font-size:.45em;
-	margin-bottom:1.11em;
-}
-
-h5, h6, p {
-	font-size:.4em;
-	/* mb : fs * (5vmin / fs) */
-	margin-bottom:1.25em;
-}
-
-blockquote {
-	font-size:.35em;
-	padding:1.75em;
-	line-height:$golden;
-	margin:0px;
-	margin-bottom:1.43em;
-	background-color:rgba(0,0,0,0.15);
+h3, h4, h5, h6 {
+	font-size:1em;
+	font-weight:bold;
 }
 
 .inset {
@@ -401,56 +409,4 @@ blockquote {
 	@extend .inset;
 	float:right;
 	margin:0px 0px 0px 4vmin;
-}
-
-#content, #navDrawer {
-	padding:1.9em .5em .5em;
-}
-
-header {
-	height:1.6em;
-	width:100%;
-	background-color:#999;
-	box-sizing:border-box;
-	padding:.3em .5em 0em;
-	position:fixed;
-	z-index:200;
-}
-
-#logo, #navToggle {
-	background-color:#bbb;
-	height:1em;
-}
-
-#logo {
-	float:left;
-	width:5em;
-}
-
-#navToggle {
-	float:right;
-	width:1em;
-	cursor:pointer;
-}
-
-#siteNav {
-	position:fixed;
-	z-index:100;
-	background-color:#666;
-	height:100%;
-	width:100%;
-	top:0px;
-	left:0px;
-	display:none;
-}
-
-#siteNav.active {
-	display:block;
-}
-
-#navDrawer li {
-	font-size:0.6em;
-	margin-bottom:0.5em;
-	border-bottom:1px solid #aaa;
-	color:#eee;
 }
