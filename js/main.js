@@ -9,7 +9,7 @@ function vInfo(){
 
 function vWatcher(){
 	$('#viewportWatch').html(vInfo().join(', '));
-	$('body').css('font-size',(vm * .1) + 'px');
+	$('body').css('font-size',(vm * .01) + 'px');
 }
 
 function toggleNav(){

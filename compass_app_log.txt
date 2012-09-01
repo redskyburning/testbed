@@ -314,3 +314,148 @@
 2012-09-01 01:52:08 overwrite css/main.css 
 2012-09-01 01:53:08 overwrite css/main.css 
 2012-09-01 01:54:27 overwrite css/main.css 
+2012-09-01 12:01:00 overwrite css/main.css 
+2012-09-01 12:04:24 overwrite css/main.css 
+2012-09-01 12:09:17     error scss/main.scss (Line 423: Undefined variable: "$lgHpad".)
+2012-09-01 12:09:17 overwrite css/main.css 
+2012-09-01 12:10:01 overwrite css/main.css 
+2012-09-01 12:11:56 overwrite css/main.css 
+2012-09-01 12:14:08 overwrite css/main.css 
+2012-09-01 12:14:25 overwrite css/main.css 
+2012-09-01 12:14:50 overwrite css/main.css 
+2012-09-01 12:26:40 overwrite css/main.css 
+2012-09-01 12:38:13 overwrite css/main.css 
+2012-09-01 12:39:13 overwrite css/main.css 
+2012-09-01 12:39:56 overwrite css/main.css 
+2012-09-01 12:40:55 overwrite css/main.css 
+2012-09-01 12:41:14 overwrite css/main.css 
+2012-09-01 12:41:29 overwrite css/main.css 
+2012-09-01 12:43:44 overwrite css/main.css 
+2012-09-01 12:57:37 overwrite css/main.css 
+2012-09-01 12:58:22 overwrite css/main.css 
+2012-09-01 12:59:10 overwrite css/main.css 
+2012-09-01 13:01:20 overwrite css/main.css 
+2012-09-01 13:01:37 overwrite css/main.css 
+2012-09-01 13:02:19 overwrite css/main.css 
+2012-09-01 13:03:08 overwrite css/main.css 
+2012-09-01 13:05:28 overwrite css/main.css 
+2012-09-01 13:06:41 overwrite css/main.css 
+2012-09-01 13:07:59 overwrite css/main.css 
+2012-09-01 13:12:07 overwrite css/main.css 
+2012-09-01 13:12:29 overwrite css/main.css 
+2012-09-01 13:12:40 overwrite css/main.css 
+2012-09-01 13:14:11 overwrite css/main.css 
+2012-09-01 13:14:56 overwrite css/main.css 
+2012-09-01 13:16:17 overwrite css/main.css 
+2012-09-01 13:18:14 overwrite css/main.css 
+2012-09-01 13:18:46 overwrite css/main.css 
+2012-09-01 13:18:56 overwrite css/main.css 
+2012-09-01 13:19:16 overwrite css/main.css 
+2012-09-01 13:19:26 overwrite css/main.css 
+2012-09-01 13:20:31 overwrite css/main.css 
+2012-09-01 13:21:28 overwrite css/main.css 
+2012-09-01 13:27:47 overwrite css/main.css 
+2012-09-01 13:28:50 overwrite css/main.css 
+2012-09-01 13:30:43 overwrite css/main.css 
+2012-09-01 13:30:52 overwrite css/main.css 
+2012-09-01 13:30:58     error scss/main.scss (Line 396: 0.2em*em isn't a valid CSS value.)
+2012-09-01 13:30:58 overwrite css/main.css 
+2012-09-01 13:33:01 overwrite css/main.css 
+2012-09-01 13:33:41 identical css/main.css 
+2012-09-01 13:33:50     error scss/main.scss (Line 398: Invalid CSS after "	test": expected "{", was "}")
+2012-09-01 13:33:50 overwrite css/main.css 
+2012-09-01 13:33:59 overwrite css/main.css 
+2012-09-01 13:34:32 overwrite css/main.css 
+2012-09-01 13:34:43 overwrite css/main.css 
+2012-09-01 13:35:26 overwrite css/main.css 
+2012-09-01 13:36:32 overwrite css/main.css 
+2012-09-01 13:37:16 identical css/main.css 
+2012-09-01 13:37:41 overwrite css/main.css 
+2012-09-01 13:37:56 overwrite css/main.css 
+2012-09-01 13:52:11 overwrite css/main.css 
+2012-09-01 13:53:17 overwrite css/main.css 
+2012-09-01 13:55:28 overwrite css/main.css 
+2012-09-01 13:55:37 overwrite css/main.css 
+2012-09-01 13:56:46 identical css/main.css 
+2012-09-01 13:57:41 overwrite css/main.css 
+2012-09-01 13:58:46 overwrite css/main.css 
+2012-09-01 13:58:56 overwrite css/main.css 
+2012-09-01 13:59:08 overwrite css/main.css 
+2012-09-01 14:01:31 overwrite css/main.css 
+2012-09-01 14:01:52 overwrite css/main.css 
+2012-09-01 14:02:01 overwrite css/main.css 
+2012-09-01 14:02:11 overwrite css/main.css 
+2012-09-01 14:03:59 overwrite css/main.css 
+2012-09-01 14:06:07 overwrite css/main.css 
+2012-09-01 14:08:41 overwrite css/main.css 
+2012-09-01 14:08:56 overwrite css/main.css 
+2012-09-01 14:10:47 overwrite css/main.css 
+2012-09-01 14:15:23 overwrite css/main.css 
+2012-09-01 14:15:53 overwrite css/main.css 
+2012-09-01 14:23:05 overwrite css/main.css 
+2012-09-01 14:24:07 overwrite css/main.css 
+2012-09-01 14:24:38 overwrite css/main.css 
+2012-09-01 14:25:08 overwrite css/main.css 
+2012-09-01 14:25:20 overwrite css/main.css 
+2012-09-01 14:26:10 overwrite css/main.css 
+2012-09-01 14:26:17 overwrite css/main.css 
+2012-09-01 14:28:19 overwrite css/main.css 
+2012-09-01 14:30:50 overwrite css/main.css 
+2012-09-01 14:31:07 overwrite css/main.css 
+2012-09-01 14:33:13 overwrite css/main.css 
+2012-09-01 14:36:32 overwrite css/main.css 
+2012-09-01 14:37:29 overwrite css/main.css 
+2012-09-01 14:38:05 overwrite css/main.css 
+2012-09-01 14:38:59     error scss/main.scss (Line 419: Undefined variable: "$fs-p".)
+2012-09-01 14:38:59 overwrite css/main.css 
+2012-09-01 14:39:11     error scss/main.scss (Line 419: Undefined variable: "$fs-p".)
+2012-09-01 14:39:11 identical css/main.css 
+2012-09-01 14:39:38 overwrite css/main.css 
+2012-09-01 14:40:11 overwrite css/main.css 
+2012-09-01 14:40:34 overwrite css/main.css 
+2012-09-01 14:40:41 overwrite css/main.css 
+2012-09-01 14:42:20 overwrite css/main.css 
+2012-09-01 14:42:59 overwrite css/main.css 
+2012-09-01 14:44:57     error scss/main.scss (Line 356: Invalid CSS after "$fs-fc:": expected expression (e.g. 1px, bold), was ";")
+2012-09-01 14:44:57 overwrite css/main.css 
+2012-09-01 14:46:15     error scss/main.scss (Line 356: Invalid CSS after "$fs-fc:": expected expression (e.g. 1px, bold), was ";")
+2012-09-01 14:46:15 identical css/main.css 
+2012-09-01 14:46:17     error scss/main.scss (Line 356: Invalid CSS after "$fs-fc:": expected expression (e.g. 1px, bold), was ";")
+2012-09-01 14:46:17 identical css/main.css 
+2012-09-01 14:47:32 overwrite css/main.css 
+2012-09-01 14:57:44 overwrite css/main.css 
+2012-09-01 14:59:07 overwrite css/main.css 
+2012-09-01 15:00:04 overwrite css/main.css 
+2012-09-01 15:00:08 overwrite css/main.css 
+2012-09-01 15:00:19 overwrite css/main.css 
+2012-09-01 15:00:29 overwrite css/main.css 
+2012-09-01 15:03:44 overwrite css/main.css 
+2012-09-01 15:05:08 overwrite css/main.css 
+2012-09-01 15:05:17 identical css/main.css 
+2012-09-01 15:06:26 overwrite css/main.css 
+2012-09-01 15:08:46 overwrite css/main.css 
+2012-09-01 15:10:53 overwrite css/main.css 
+2012-09-01 15:12:14     error scss/main.scss (Line 394: Invalid CSS after "...t / 2) / $fs-h2": expected ";", was ") * 1em; ")
+2012-09-01 15:12:14 overwrite css/main.css 
+2012-09-01 15:12:25 overwrite css/main.css 
+2012-09-01 15:13:03     error scss/main.scss (Line 389: Invalid CSS after "... / 2) / $fs-h1)": expected ";", was ") * 1em; ")
+2012-09-01 15:13:03 overwrite css/main.css 
+2012-09-01 15:19:13     error scss/main.scss (Line 389: Invalid CSS after "... / 2) / $fs-h1)": expected ";", was ") * 1em; ")
+2012-09-01 15:19:13 overwrite css/main.css 
+2012-09-01 15:22:39     error scss/main.scss (Line 389: Invalid CSS after "... / 2) / $fs-h1)": expected ";", was ") * 1em; ")
+2012-09-01 15:22:39 overwrite css/main.css 
+2012-09-01 15:26:37     error scss/main.scss (Line 389: Invalid CSS after "... / 2) / $fs-h1)": expected ";", was ") * 1em; ")
+2012-09-01 15:26:37 overwrite css/main.css 
+2012-09-01 15:29:09     error scss/main.scss (Line 389: Invalid CSS after "... / 2) / $fs-h1)": expected ";", was ") * 1em; ")
+2012-09-01 15:29:09 overwrite css/main.css 
+2012-09-01 15:29:54     error scss/main.scss (Line 389: Invalid CSS after "... / 2) / $fs-h1)": expected ";", was ") * 1em; ")
+2012-09-01 15:29:54 overwrite css/main.css 
+2012-09-01 15:31:26     error scss/main.scss (Line 389: Invalid CSS after "... / 2) / $fs-h1)": expected ";", was ") * 1em; ")
+2012-09-01 15:31:26 overwrite stylesheets/main.css 
+2012-09-01 15:31:27 identical stylesheets/normalize.css 
+2012-09-01 15:31:28    create stylesheets/v1.css 
+2012-09-01 15:31:56     error scss/main.scss (Line 389: Invalid CSS after "...t / 2) / $fs-h1": expected ";", was ")) * 1em; ")
+2012-09-01 15:31:56 overwrite css/main.css 
+2012-09-01 15:32:07     error scss/main.scss (Line 389: Invalid CSS after "... / 2) / $fs-h1)": expected ";", was ") * 1em; ")
+2012-09-01 15:32:07 overwrite css/main.css 
+2012-09-01 15:32:27 overwrite css/main.css 

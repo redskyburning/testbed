@@ -322,6 +322,43 @@ h1, h2, h3, h4, h5, h6, figure, ul, ol, nav, p, div {
 			   Main
 ================================== */
 
+#viewportWatch {
+	color:#f00;
+	padding:.5em;
+	position:fixed;
+	top:0px;
+	right:0px;
+	background-color:rgba(0,0,0,0.4);
+	opacity:0.3;
+	z-index:1000;
+	font-size:3em;
+}
+
+/* ****************************************
+	Variables
+******************************************/ 
+
+$headMin:16em;
+$content-pad-lg: 19em;
+$content-pad-sm: 3em;
+$header-pad-lg: $content-pad-sm;
+$header-pad-sm: 3em;
+$marBottom: 5em;
+$marBint: 5;
+$header-icon-min:10em;
+
+$golden: 1.6em;
+$fs-h1:6;
+$fs-h2:5;
+$fs-h3:4.5;
+$fs-p:4;
+$fs-bq:3.5;
+$fs-fc:3.5;
+
+/* ****************************************
+	Text
+******************************************/ 
+
 html {
 	font-size:10vmin;
 	font-family: 'Lato', sans-serif;
@@ -329,26 +366,18 @@ html {
 	color:#333;
 }
 
-#viewportWatch {
-	color:#f00;
-	padding:10px;
-	position:fixed;
-	top:0px;
-	right:0px;
-	background-color:rgba(0,0,0,0.2);
-	opacity:0.3;
-	z-index:20;
-	font-size:.4em;
+h1, h2, h3, h4, h5, h6, p {
+	line-height:$golden;
+	margin:0px;
+	/* margin-top:-.3em; */
+	/* position:relative;
+	top:-.3em; */
 }
-
-$golden: 1.6em;
 
 h1, h2, h3, h4, h5, h6 {
 	text-transform:capitalize;
 	font-family: 'Oswald', sans-serif;
 	font-weight:300;
-	line-height:$golden;
-	
 }
 
 h1, h3, h5, h6 {
@@ -356,80 +385,133 @@ h1, h3, h5, h6 {
 }
 
 h1 {
-	font-size:.6em;
-	margin-bottom:.83em;
+	font-size:$fs-h1 * 1em;
+	margin-bottom:(($marBint / 2) / $fs-h1) * 1em; 
 }
 
 h2 {
-	font-size:.5em;
-	margin-bottom:1em;
+	font-size:$fs-h2 * 1em;
+	margin-bottom:(($marBint / 2) / $fs-h2) * 1em; 
 }
 
-h3, h4 {
-	font-size:.45em;
-	margin-bottom:1.11em;
+h3, h4 { 
+	font-size:$fs-h3 * 1em;
+	margin-bottom:($marBint / $fs-h3) * 1em; 
 }
 
 h5, h6, p {
-	font-size:.4em;
-	/* mb : fs * (5vmin / fs) */
-	margin-bottom:1.25em;
+	font-size:$fs-p * 1em;
+	margin-bottom:($marBint / $fs-p) * 1em; 
+	
 }
 
 blockquote {
-	font-size:.35em;
-	padding:1.75em;
-	line-height:$golden;
+	font-size:$fs-bq * 1em;
 	margin:0px;
-	margin-bottom:1.43em;
+	margin-bottom:($marBint / $fs-bq) * 1em; 
+	padding:(6 / $fs-bq) * 1em; 
+	line-height:$golden;
 	background-color:rgba(0,0,0,0.15);
+	clear:both;
 }
 
-.inset {
-	width:42vmin;
-	height:auto;
-	background-color:#333;
+figcaption {
+	font-size:$fs-fc * 1em;
+	margin:0px;
+	box-sizing:border-box; 
+	padding:(3 / $fs-fc) * 1em; 
+	background-color:#bbb;
 }
 
-.insetLeft {
-	@extend .inset;
-	float:left;
-	margin:0px 4vmin 0px 0px;
+.heroImg {
+	background-color:#555;
+	margin-bottom:$marBottom;
+	margin:0px;
+	margin-bottom:$content-pad-sm;
+	
+	img {
+		width:100%;
+		height:auto;
+	}
 }
 
-.insetRight {
-	@extend .inset;
-	float:right;
-	margin:0px 0px 0px 4vmin;
+@media all and (orientation:portrait) {
+
+	.heroImg {
+		width:100%;
+	
+		img {
+			height:60em;
+		}
+	}
 }
+
+@media all and (orientation:landscape) {
+
+	.heroImg {
+		width:45em;
+		float:right;
+		margin-left: $content-pad-sm;
+		
+		img {
+			height:45em;
+		}
+	}
+	
+	.heroImg:nth-of-type(even) {
+		float:left;
+		margin-left:0px;
+		margin-right: $content-pad-sm;
+	}
+	
+	.figcaption {
+		width:50em;
+	} 
+}
+
+/* ****************************************
+	Content Areas
+******************************************/ 
+
 
 #content, #navDrawer {
-	padding:1.9em .5em .5em;
 }
 
+@media all and (orientation:portrait) {
+
+	#content, #navDrawer {
+		padding:$content-pad-lg $content-pad-sm $content-pad-sm;
+	}
+}
+
+@media all and (orientation:landscape) {
+
+	#content, #navDrawer {
+		padding: $content-pad-sm $content-pad-sm $content-pad-sm $content-pad-lg;
+	}
+}
+
+/* ****************************************
+	Header & Nav
+******************************************/ 
+
 header {
-	height:1.6em;
-	width:100%;
 	background-color:#999;
 	box-sizing:border-box;
-	padding:.3em .5em 0em;
 	position:fixed;
 	z-index:200;
 }
 
 #logo, #navToggle {
 	background-color:#bbb;
-	height:1em;
+	height:$header-icon-min;
 }
 
 #logo {
-	float:left;
-	width:5em;
 }
 
 #navToggle {
-	float:right;
-	width:1em;
+	width:$header-icon-min;
 	cursor:pointer;
 }
 
@@ -449,8 +531,43 @@ header {
 }
 
 #navDrawer li {
-	font-size:0.6em;
-	margin-bottom:0.5em;
+	$fs-li:6;
+	font-size:$fs-li * 1em;
+	margin-bottom:($marBint / $fs-li) * 1em; 
 	border-bottom:1px solid #aaa;
 	color:#eee;
+}
+
+@media all and (orientation:portrait) {
+
+	header {
+		height:$headMin;
+		width:100%;
+		padding:$header-pad-sm $header-pad-lg 0em;
+		padding:$header-pad-sm $header-pad-sm 0em;
+	}
+
+	#logo {
+		width:50em;
+		float:left;
+	}
+
+	#navToggle {
+		float:right;
+	}
+}
+
+@media all and (orientation:landscape) {
+
+	header {
+		width:$headMin;
+		height:100%;
+		padding:$header-pad-lg .0em $header-pad-lg $header-pad-sm;
+		padding:$header-pad-sm .0em $header-pad-sm $header-pad-sm;
+	}
+
+	#logo {
+		width:$header-icon-min;
+		margin-bottom:$marBottom;
+	}
 }
