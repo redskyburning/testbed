@@ -345,6 +345,7 @@ $header-pad-lg: $content-pad-sm;
 $header-pad-sm: 3em;
 $marBottom: 5em;
 $marBint: 5;
+$marXint: 3;
 $header-icon-min:10em;
 
 $golden: 1.6em;
@@ -370,8 +371,8 @@ h1, h2, h3, h4, h5, h6, p {
 	line-height:$golden;
 	margin:0px;
 	/* margin-top:-.3em; */
-	/* position:relative;
-	top:-.3em; */
+	position:relative;
+	top:-.3em; 
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -473,6 +474,11 @@ figcaption {
 	Content Areas
 ******************************************/ 
 
+#content-wrap {
+	margin:0px;
+	padding:0px;
+	
+}
 
 #content, #navDrawer {
 }
@@ -482,6 +488,10 @@ figcaption {
 	#content, #navDrawer {
 		padding:$content-pad-lg $content-pad-sm $content-pad-sm;
 	}
+	
+	#content-wrap {
+		padding-top:$headMin;
+	}
 }
 
 @media all and (orientation:landscape) {
@@ -489,6 +499,14 @@ figcaption {
 	#content, #navDrawer {
 		padding: $content-pad-sm $content-pad-sm $content-pad-sm $content-pad-lg;
 	}
+	
+	#content-wrap {
+		padding-left:$headMin;
+	}
+}
+
+#content {
+		padding:$content-pad-sm;
 }
 
 /* ****************************************
@@ -570,4 +588,43 @@ header {
 		width:$header-icon-min;
 		margin-bottom:$marBottom;
 	}
+}
+
+#content-wrap {
+	display:-webkit-box;
+}
+
+#sidebar {
+	background-color:#666;
+	padding:$header-pad-sm;
+	color:#ddd;
+}
+
+@media all and (orientation:portrait) {
+
+	#content-wrap {
+		-webkit-box-orient:vertical;
+	}
+	
+}
+
+@media all and (orientation:landscape) {
+
+	#content-wrap {
+		-webkit-box-orient:horizontal;
+	}
+	
+	#sidebar {
+		width:300px;
+		margin-left:$marXint * .5 * 1em;
+		-webkit-box-flex:0.0;
+	}
+	
+	#content {
+		-webkit-box-flex:1.0;
+	}
+}
+
+#siteFoot {
+	background-color:#555;
 }
