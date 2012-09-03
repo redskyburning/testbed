@@ -1,0 +1,61 @@
+@import 'compass/css3';
+
+#viewportWatch {
+	color:#f00;
+	padding:.5em;
+	position:fixed;
+	bottom:0px;
+	right:0px;
+	background-color:rgba(0,0,0,0.4);
+	opacity:0.3;
+	z-index:1000;
+	font-size:3em;
+}
+
+/* body {
+	@include background-image(
+		linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0) .5in, rgba(0,0,0,0.1) .5in, rgba(0,0,0,0.1) 1in), 
+		linear-gradient(top,rgba(0,0,0,0),rgba(0,0,0,0) .5in, rgba(0,0,0,0.1) .5in, rgba(0,0,0,0.1) 1in));
+	background-size:1in 1in; 
+} */
+
+#cssOut > * {
+	display:none;
+}
+
+@media screen and (orientation:portrait) and (max-width:400px) {
+	#m-p {
+		display:block;
+	}
+}
+
+@media screen and (orientation:portrait) and (min-width:401px) and (max-width:700px) {
+	#t-p {
+		display:block;
+	}
+}
+
+@media screen and (orientation:portrait) and (min-width:701px) {
+	#d-p {
+		display:block;
+	}
+} 
+
+@media screen and (orientation:landscape) and (max-height:400px) {
+	#m-l {
+		display:block;
+	}
+}
+
+@media screen and (orientation:landscape) and (min-height:401px) and (max-height:700px) {
+	#t-l {
+		display:block;
+	}
+}
+
+@media screen and (orientation:landscape) and (min-height:701px) {
+	#d-l {
+		display:block;
+	}
+}
+

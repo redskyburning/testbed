@@ -356,6 +356,24 @@ $fs-p:4;
 $fs-bq:3.5;
 $fs-fc:3.5;
 
+@media screen and (orientation:portrait) and (max-width:400px) {	
+}
+
+@media screen and (orientation:portrait) and (min-width:401px) and (max-width:700px) {
+}
+
+@media screen and (orientation:portrait) and (min-width:701px) {
+} 
+
+@media screen and (orientation:landscape) and (max-height:400px) {
+}
+
+@media screen and (orientation:landscape) and (min-height:401px) and (max-height:700px) {
+}
+
+@media screen and (orientation:landscape) and (min-height:701px) {
+}
+
 /* ****************************************
 	Text
 ******************************************/ 
@@ -627,4 +645,23 @@ header {
 
 #siteFoot {
 	background-color:#555;
+}
+
+@media screen and (orientation:portrait) and (max-width:400px) {
+	
+}
+
+@media screen and (orientation:portrait) and (min-width:401px) and (max-width:700px) {
+}
+
+@media screen and (orientation:portrait) and (min-width:701px) {
+} 
+
+@media screen and (orientation:landscape) and (max-height:400px) {
+}
+
+@media screen and (orientation:landscape) and (min-height:401px) and (max-height:700px) {
+}
+
+@media screen and (orientation:landscape) and (min-height:701px) {
 }

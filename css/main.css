@@ -340,7 +340,7 @@ h1, h2, h3, h4, h5, h6, figure, ul, ol, nav, p, div {
 /* ****************************************
 	Text
 ******************************************/
-/* line 363, ../scss/main.scss */
+/* line 381, ../scss/main.scss */
 html {
   font-size: 10vmin;
   font-family: 'Lato', sans-serif;
@@ -348,7 +348,7 @@ html {
   color: #333;
 }
 
-/* line 370, ../scss/main.scss */
+/* line 388, ../scss/main.scss */
 h1, h2, h3, h4, h5, h6, p {
   line-height: 1.6em;
   margin: 0px;
@@ -357,43 +357,43 @@ h1, h2, h3, h4, h5, h6, p {
   top: -0.3em;
 }
 
-/* line 378, ../scss/main.scss */
+/* line 396, ../scss/main.scss */
 h1, h2, h3, h4, h5, h6 {
   text-transform: capitalize;
   font-family: 'Oswald', sans-serif;
   font-weight: 300;
 }
 
-/* line 384, ../scss/main.scss */
+/* line 402, ../scss/main.scss */
 h1, h3, h5, h6 {
   font-weight: 400;
 }
 
-/* line 388, ../scss/main.scss */
+/* line 406, ../scss/main.scss */
 h1 {
   font-size: 6em;
   margin-bottom: 0.41667em;
 }
 
-/* line 393, ../scss/main.scss */
+/* line 411, ../scss/main.scss */
 h2 {
   font-size: 5em;
   margin-bottom: 0.5em;
 }
 
-/* line 398, ../scss/main.scss */
+/* line 416, ../scss/main.scss */
 h3, h4 {
   font-size: 4.5em;
   margin-bottom: 1.11111em;
 }
 
-/* line 403, ../scss/main.scss */
+/* line 421, ../scss/main.scss */
 h5, h6, p {
   font-size: 4em;
   margin-bottom: 1.25em;
 }
 
-/* line 409, ../scss/main.scss */
+/* line 427, ../scss/main.scss */
 blockquote {
   font-size: 3.5em;
   margin: 0px;
@@ -404,7 +404,7 @@ blockquote {
   clear: both;
 }
 
-/* line 419, ../scss/main.scss */
+/* line 437, ../scss/main.scss */
 figcaption {
   font-size: 3.5em;
   margin: 0px;
@@ -413,49 +413,49 @@ figcaption {
   background-color: #bbb;
 }
 
-/* line 427, ../scss/main.scss */
+/* line 445, ../scss/main.scss */
 .heroImg {
   background-color: #555;
   margin-bottom: 5em;
   margin: 0px;
   margin-bottom: 3em;
 }
-/* line 433, ../scss/main.scss */
+/* line 451, ../scss/main.scss */
 .heroImg img {
   width: 100%;
   height: auto;
 }
 
 @media all and (orientation: portrait) {
-  /* line 441, ../scss/main.scss */
+  /* line 459, ../scss/main.scss */
   .heroImg {
     width: 100%;
   }
-  /* line 444, ../scss/main.scss */
+  /* line 462, ../scss/main.scss */
   .heroImg img {
     height: 60em;
   }
 }
 @media all and (orientation: landscape) {
-  /* line 452, ../scss/main.scss */
+  /* line 470, ../scss/main.scss */
   .heroImg {
     width: 45em;
     float: right;
     margin-left: 3em;
   }
-  /* line 457, ../scss/main.scss */
+  /* line 475, ../scss/main.scss */
   .heroImg img {
     height: 45em;
   }
 
-  /* line 462, ../scss/main.scss */
+  /* line 480, ../scss/main.scss */
   .heroImg:nth-of-type(even) {
     float: left;
     margin-left: 0px;
     margin-right: 3em;
   }
 
-  /* line 468, ../scss/main.scss */
+  /* line 486, ../scss/main.scss */
   .figcaption {
     width: 50em;
   }
@@ -463,35 +463,35 @@ figcaption {
 /* ****************************************
 	Content Areas
 ******************************************/
-/* line 477, ../scss/main.scss */
+/* line 495, ../scss/main.scss */
 #content-wrap {
   margin: 0px;
   padding: 0px;
 }
 
 @media all and (orientation: portrait) {
-  /* line 488, ../scss/main.scss */
+  /* line 506, ../scss/main.scss */
   #content, #navDrawer {
     padding: 19em 3em 3em;
   }
 
-  /* line 492, ../scss/main.scss */
+  /* line 510, ../scss/main.scss */
   #content-wrap {
     padding-top: 16em;
   }
 }
 @media all and (orientation: landscape) {
-  /* line 499, ../scss/main.scss */
+  /* line 517, ../scss/main.scss */
   #content, #navDrawer {
     padding: 3em 3em 3em 19em;
   }
 
-  /* line 503, ../scss/main.scss */
+  /* line 521, ../scss/main.scss */
   #content-wrap {
     padding-left: 16em;
   }
 }
-/* line 508, ../scss/main.scss */
+/* line 526, ../scss/main.scss */
 #content {
   padding: 3em;
 }
@@ -499,7 +499,7 @@ figcaption {
 /* ****************************************
 	Header & Nav
 ******************************************/
-/* line 516, ../scss/main.scss */
+/* line 534, ../scss/main.scss */
 header {
   background-color: #999;
   box-sizing: border-box;
@@ -507,19 +507,19 @@ header {
   z-index: 200;
 }
 
-/* line 523, ../scss/main.scss */
+/* line 541, ../scss/main.scss */
 #logo, #navToggle {
   background-color: #bbb;
   height: 10em;
 }
 
-/* line 531, ../scss/main.scss */
+/* line 549, ../scss/main.scss */
 #navToggle {
   width: 10em;
   cursor: pointer;
 }
 
-/* line 536, ../scss/main.scss */
+/* line 554, ../scss/main.scss */
 #siteNav {
   position: fixed;
   z-index: 100;
@@ -531,12 +531,12 @@ header {
   display: none;
 }
 
-/* line 547, ../scss/main.scss */
+/* line 565, ../scss/main.scss */
 #siteNav.active {
   display: block;
 }
 
-/* line 551, ../scss/main.scss */
+/* line 569, ../scss/main.scss */
 #navDrawer li {
   font-size: 6em;
   margin-bottom: 0.83333em;
@@ -545,7 +545,7 @@ header {
 }
 
 @media all and (orientation: portrait) {
-  /* line 561, ../scss/main.scss */
+  /* line 579, ../scss/main.scss */
   header {
     height: 16em;
     width: 100%;
@@ -553,19 +553,19 @@ header {
     padding: 3em 3em 0em;
   }
 
-  /* line 568, ../scss/main.scss */
+  /* line 586, ../scss/main.scss */
   #logo {
     width: 50em;
     float: left;
   }
 
-  /* line 573, ../scss/main.scss */
+  /* line 591, ../scss/main.scss */
   #navToggle {
     float: right;
   }
 }
 @media all and (orientation: landscape) {
-  /* line 580, ../scss/main.scss */
+  /* line 598, ../scss/main.scss */
   header {
     width: 16em;
     height: 100%;
@@ -573,18 +573,18 @@ header {
     padding: 3em 0em 3em 3em;
   }
 
-  /* line 587, ../scss/main.scss */
+  /* line 605, ../scss/main.scss */
   #logo {
     width: 10em;
     margin-bottom: 5em;
   }
 }
-/* line 593, ../scss/main.scss */
+/* line 611, ../scss/main.scss */
 #content-wrap {
   display: -webkit-box;
 }
 
-/* line 597, ../scss/main.scss */
+/* line 615, ../scss/main.scss */
 #sidebar {
   background-color: #666;
   padding: 3em;
@@ -592,30 +592,30 @@ header {
 }
 
 @media all and (orientation: portrait) {
-  /* line 605, ../scss/main.scss */
+  /* line 623, ../scss/main.scss */
   #content-wrap {
     -webkit-box-orient: vertical;
   }
 }
 @media all and (orientation: landscape) {
-  /* line 613, ../scss/main.scss */
+  /* line 631, ../scss/main.scss */
   #content-wrap {
     -webkit-box-orient: horizontal;
   }
 
-  /* line 617, ../scss/main.scss */
+  /* line 635, ../scss/main.scss */
   #sidebar {
     width: 300px;
     margin-left: 1.5em;
     -webkit-box-flex: 0.0;
   }
 
-  /* line 623, ../scss/main.scss */
+  /* line 641, ../scss/main.scss */
   #content {
     -webkit-box-flex: 1.0;
   }
 }
-/* line 628, ../scss/main.scss */
+/* line 646, ../scss/main.scss */
 #siteFoot {
   background-color: #555;
 }
