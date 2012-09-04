@@ -531,3 +531,207 @@
 2012-09-03 13:41:01 overwrite css/detect.css 
 2012-09-03 13:58:10 overwrite css/detect.css 
 2012-09-03 14:09:15 overwrite css/main.css 
+2012-09-03 14:10:58    create css/v2.css 
+2012-09-03 14:25:38     error scss/main.scss (Line 381: Undefined variable: "$marBint".)
+2012-09-03 14:25:38 overwrite css/main.css 
+2012-09-03 14:28:55     error scss/main.scss (Line 381: Undefined variable: "$marBint".)
+2012-09-03 14:28:55 identical css/main.css 
+2012-09-03 14:29:34     error scss/main.scss (Line 381: Undefined variable: "$margin-bottom-int".)
+2012-09-03 14:29:34 overwrite css/main.css 
+2012-09-03 14:29:50     error scss/main.scss (Line 422: Undefined variable: "$marBottom".)
+2012-09-03 14:29:50 overwrite css/main.css 
+2012-09-03 14:30:58     error scss/main.scss (Line 425: Undefined variable: "$content-pad-sm".)
+2012-09-03 14:30:58 overwrite css/main.css 
+2012-09-03 14:32:49     error scss/main.scss (Line 427: Undefined variable: "$content-x-margin".)
+2012-09-03 14:32:49 overwrite css/main.css 
+2012-09-03 14:33:28 overwrite css/main.css 
+2012-09-03 14:34:38 overwrite css/main.css 
+2012-09-03 14:40:55 overwrite css/main.css 
+2012-09-03 14:41:43 overwrite css/main.css 
+2012-09-03 14:43:19 overwrite css/main.css 
+2012-09-03 14:43:35 overwrite css/main.css 
+2012-09-03 14:44:29 overwrite css/main.css 
+2012-09-03 14:45:16 overwrite css/main.css 
+2012-09-03 14:47:44 overwrite css/main.css 
+2012-09-03 14:50:50 overwrite css/main.css 
+2012-09-03 14:52:17 overwrite css/main.css 
+2012-09-03 14:52:34 overwrite css/main.css 
+2012-09-03 14:53:16 overwrite css/main.css 
+2012-09-03 14:55:11 overwrite css/main.css 
+2012-09-03 14:57:34 identical css/main.css 
+2012-09-03 14:57:56 overwrite css/main.css 
+2012-09-03 14:59:26     error scss/main.scss (Line 537: Invalid CSS after "... (((orientation": expected ")", was ":portrait) and ...")
+2012-09-03 14:59:26 overwrite css/main.css 
+2012-09-03 14:59:41     error scss/main.scss (Line 537: Invalid CSS after "... (((orientation": expected ")", was ":portrait) and ...")
+2012-09-03 14:59:41 identical css/main.css 
+2012-09-03 15:00:23     error scss/main.scss (Line 537: Invalid CSS after "...d ((orientation": expected ")", was ":portrait) or (...")
+2012-09-03 15:00:23 overwrite css/main.css 
+2012-09-03 15:03:42     error scss/main.scss (Line 537: Invalid CSS after "... (((orientation": expected ")", was ":portrait) and ...")
+2012-09-03 15:03:43 overwrite css/main.css 
+2012-09-03 15:04:19 overwrite css/main.css 
+2012-09-03 15:05:01 overwrite css/main.css 
+2012-09-03 15:05:13 overwrite css/main.css 
+2012-09-03 15:05:56 overwrite css/main.css 
+2012-09-03 15:06:11 overwrite css/main.css 
+2012-09-03 15:06:16 overwrite css/main.css 
+2012-09-03 15:06:44 overwrite css/main.css 
+2012-09-03 15:08:05 overwrite css/main.css 
+2012-09-03 15:08:23 overwrite css/main.css 
+2012-09-03 15:09:02 overwrite css/main.css 
+2012-09-03 15:09:19 overwrite css/main.css 
+2012-09-03 15:10:16 overwrite css/main.css 
+2012-09-03 15:10:58 overwrite css/main.css 
+2012-09-03 15:15:22 overwrite css/main.css 
+2012-09-03 15:17:55 identical css/main.css 
+2012-09-03 15:22:20     error scss/main.scss (Line 500: Undefined variable: "$header-offest".)
+2012-09-03 15:22:20 overwrite css/main.css 
+2012-09-03 15:22:40     error scss/main.scss (Line 501: Undefined variable: "$header-offest".)
+2012-09-03 15:22:40 overwrite css/main.css 
+2012-09-03 15:23:29     error scss/main.scss (Line 501: Undefined variable: "$header-offest".)
+2012-09-03 15:23:29 identical css/main.css 
+2012-09-03 15:23:43     error scss/main.scss (Line 500: Undefined variable: "$header-offest".)
+2012-09-03 15:23:43 overwrite css/main.css 
+2012-09-03 15:23:47     error scss/main.scss (Line 501: Undefined variable: "$header-offest".)
+2012-09-03 15:23:47 overwrite css/main.css 
+2012-09-03 15:23:59     error scss/main.scss (Line 501: Undefined variable: "$header-offest".)
+2012-09-03 15:23:59 identical css/main.css 
+2012-09-03 15:24:14     error scss/main.scss (Line 499: Undefined variable: "$header-offest".)
+2012-09-03 15:24:14 overwrite css/main.css 
+2012-09-03 15:24:28     error scss/main.scss (Line 499: Undefined variable: "$header-offest".)
+2012-09-03 15:24:28 identical css/main.css 
+2012-09-03 15:24:55 overwrite css/main.css 
+2012-09-03 15:25:20 overwrite css/main.css 
+2012-09-03 15:25:40 overwrite css/main.css 
+2012-09-03 15:39:05     error scss/main.scss (Line 590: Invalid CSS after "		@import": expected file to import (string or url()), was ":display-box;")
+2012-09-03 15:39:05 overwrite css/main.css 
+2012-09-03 15:39:40     error scss/main.scss (Line 590: Invalid CSS after "		@include": expected identifier, was ":display-box;")
+2012-09-03 15:39:40 overwrite css/main.css 
+2012-09-03 15:39:59     error scss/main.scss (Line 590: Undefined mixin 'display-box'.)
+2012-09-03 15:39:59 overwrite css/main.css 
+2012-09-03 15:40:19 overwrite css/main.css 
+2012-09-03 15:40:53 overwrite css/main.css 
+2012-09-03 15:42:58 overwrite css/main.css 
+2012-09-03 15:43:05 overwrite css/main.css 
+2012-09-03 15:43:50 overwrite css/main.css 
+2012-09-03 15:46:16 overwrite css/main.css 
+2012-09-03 15:47:13 overwrite css/main.css 
+2012-09-03 15:48:49 overwrite css/main.css 
+2012-09-03 15:50:28 overwrite css/main.css 
+2012-09-03 15:51:14 overwrite css/main.css 
+2012-09-03 15:51:31 overwrite css/main.css 
+2012-09-03 15:53:29 overwrite css/main.css 
+2012-09-03 15:56:29 overwrite css/main.css 
+2012-09-03 15:59:02 overwrite css/main.css 
+2012-09-03 16:00:02 overwrite css/main.css 
+2012-09-03 16:00:31 overwrite css/main.css 
+2012-09-03 16:02:34 overwrite css/main.css 
+2012-09-03 16:02:52 overwrite css/main.css 
+2012-09-03 16:02:59 overwrite css/main.css 
+2012-09-03 16:03:34 overwrite css/main.css 
+2012-09-03 16:04:58 overwrite css/main.css 
+2012-09-03 16:08:01 overwrite css/main.css 
+2012-09-03 16:13:40 overwrite css/main.css 
+2012-09-03 16:17:34 overwrite css/main.css 
+2012-09-03 16:17:52 overwrite css/main.css 
+2012-09-03 16:27:10 overwrite css/main.css 
+2012-09-03 16:27:16 overwrite css/main.css 
+2012-09-03 16:33:43 overwrite css/main.css 
+2012-09-03 16:37:53     error scss/main.scss (Line 495: Undefined variable: "$content-marg".)
+2012-09-03 16:37:53 overwrite css/main.css 
+2012-09-03 16:37:59 overwrite css/main.css 
+2012-09-03 16:40:46 overwrite css/main.css 
+2012-09-03 16:41:19 overwrite css/main.css 
+2012-09-03 16:42:55 overwrite css/main.css 
+2012-09-03 16:42:59 overwrite css/main.css 
+2012-09-03 16:44:19     error scss/main.scss (Line 573: 16em*em isn't a valid CSS value.)
+2012-09-03 16:44:19 overwrite css/main.css 
+2012-09-03 16:45:08 overwrite css/main.css 
+2012-09-03 16:45:44 identical css/main.css 
+2012-09-03 16:45:52 overwrite css/main.css 
+2012-09-03 16:46:49 overwrite css/main.css 
+2012-09-03 16:48:29 overwrite css/main.css 
+2012-09-03 16:48:52 overwrite css/main.css 
+2012-09-03 16:49:10     error scss/main.scss (Line 505: Undefined variable: "$header-min".)
+2012-09-03 16:49:10 overwrite css/main.css 
+2012-09-03 16:49:23     error scss/main.scss (Line 528: Undefined variable: "$header-min".)
+2012-09-03 16:49:23 overwrite css/main.css 
+2012-09-03 16:49:41     error scss/main.scss (Line 558: Undefined variable: "$header-icon-min".)
+2012-09-03 16:49:41 overwrite css/main.css 
+2012-09-03 16:49:55 overwrite css/main.css 
+2012-09-03 16:50:55 overwrite css/main.css 
+2012-09-03 16:51:38 overwrite css/main.css 
+2012-09-03 16:53:01 overwrite css/main.css 
+2012-09-03 16:54:55 overwrite css/main.css 
+2012-09-03 16:57:11 overwrite css/main.css 
+2012-09-03 16:57:25 overwrite css/main.css 
+2012-09-03 16:57:49 overwrite css/main.css 
+2012-09-03 16:58:52 overwrite css/main.css 
+2012-09-03 16:59:07 overwrite css/main.css 
+2012-09-03 16:59:20 overwrite css/main.css 
+2012-09-03 16:59:29 overwrite css/main.css 
+2012-09-03 17:02:17 overwrite css/main.css 
+2012-09-03 17:05:55 overwrite css/main.css 
+2012-09-03 17:07:34 overwrite css/main.css 
+2012-09-03 17:07:49 overwrite css/main.css 
+2012-09-03 17:08:35 overwrite css/main.css 
+2012-09-03 17:09:41 overwrite css/main.css 
+2012-09-03 17:10:05 overwrite css/main.css 
+2012-09-03 17:10:29 overwrite css/main.css 
+2012-09-03 17:13:41 overwrite css/main.css 
+2012-09-03 17:25:01 overwrite css/main.css 
+2012-09-03 17:29:02 overwrite css/main.css 
+2012-09-03 17:29:10 overwrite css/main.css 
+2012-09-03 17:29:40 overwrite css/v2.css 
+2012-09-03 17:30:13 overwrite css/v2.css 
+2012-09-03 17:30:25 overwrite css/main.css 
+2012-09-03 17:31:20 overwrite css/main.css 
+2012-09-03 17:40:59 overwrite css/main.css 
+2012-09-03 17:43:40     error scss/main.scss (Line 525: Undefined variable: "$fs-p".)
+2012-09-03 17:43:40 overwrite css/main.css 
+2012-09-03 17:44:14     error scss/main.scss (Line 525: Undefined variable: "$fs-p".)
+2012-09-03 17:44:14 identical css/main.css 
+2012-09-03 17:45:12 overwrite css/main.css 
+2012-09-03 17:46:22 overwrite css/main.css 
+2012-09-03 17:46:55 overwrite css/main.css 
+2012-09-03 17:47:22 overwrite css/main.css 
+2012-09-03 17:48:10 overwrite css/main.css 
+2012-09-03 17:48:31 overwrite css/main.css 
+2012-09-03 17:49:16 overwrite css/main.css 
+2012-09-03 17:50:33 overwrite css/main.css 
+2012-09-03 17:51:03 overwrite css/main.css 
+2012-09-03 17:51:24 overwrite css/main.css 
+2012-09-03 17:51:51 overwrite css/main.css 
+2012-09-03 17:53:13 overwrite css/main.css 
+2012-09-03 17:54:21 overwrite css/main.css 
+2012-09-03 17:55:37 overwrite css/main.css 
+2012-09-03 17:55:55 overwrite css/main.css 
+2012-09-03 17:57:51 overwrite css/main.css 
+2012-09-03 17:59:31 overwrite css/main.css 
+2012-09-03 17:59:42 overwrite css/main.css 
+2012-09-03 18:00:46 overwrite css/main.css 
+2012-09-03 18:01:10 overwrite css/main.css 
+2012-09-03 18:01:24 overwrite css/main.css 
+2012-09-03 18:02:04 overwrite css/main.css 
+2012-09-03 18:02:19 overwrite css/main.css 
+2012-09-03 18:02:55 overwrite css/main.css 
+2012-09-03 18:03:01 overwrite css/main.css 
+2012-09-03 18:04:37 overwrite css/main.css 
+2012-09-03 18:05:34 overwrite css/main.css 
+2012-09-03 18:05:43 overwrite css/main.css 
+2012-09-03 18:06:12 overwrite css/main.css 
+2012-09-03 18:06:46 overwrite css/main.css 
+2012-09-03 19:42:46 overwrite css/main.css 
+2012-09-03 19:44:04 overwrite css/main.css 
+2012-09-03 19:44:32 identical css/main.css 
+2012-09-03 19:44:36 overwrite css/main.css 
+2012-09-03 19:46:09 overwrite css/main.css 
+2012-09-03 19:46:30 overwrite css/main.css 
+2012-09-03 19:46:54 overwrite css/main.css 
+2012-09-03 19:51:34 overwrite css/main.css 
+2012-09-03 19:57:55 overwrite css/main.css 
+2012-09-03 19:58:21 overwrite css/main.css 
+2012-09-03 19:59:10 overwrite css/main.css 
+2012-09-03 20:00:27 overwrite css/main.css 
+2012-09-03 20:00:57 overwrite css/main.css 
+2012-09-03 20:01:22 overwrite css/main.css 
+2012-09-03 20:05:28 overwrite css/main.css 

@@ -1,0 +1,621 @@
+/*
+ * HTML5 Boilerplate
+ *
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+/* line 17, ../scss/v2.scss */
+html,
+button,
+input,
+select,
+textarea {
+  color: #222;
+}
+
+/* line 21, ../scss/v2.scss */
+body {
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+/* line 26, ../scss/v2.scss */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* line 31, ../scss/v2.scss */
+a:visited {
+  color: inherit;
+}
+
+/* line 35, ../scss/v2.scss */
+a:hover {
+  color: inherit;
+}
+
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection declarations have to be separate.
+ * Customize the background color to match your design.
+ */
+/* line 45, ../scss/v2.scss */
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/* line 50, ../scss/v2.scss */
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+/* line 59, ../scss/v2.scss */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/*
+ * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
+ */
+/* line 72, ../scss/v2.scss */
+img {
+  vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+/* line 80, ../scss/v2.scss */
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+/* line 90, ../scss/v2.scss */
+textarea {
+  resize: vertical;
+}
+
+/* ==========================================================================
+   Chrome Frame prompt
+   ========================================================================== */
+/* line 98, ../scss/v2.scss */
+.chromeframe {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+/* line 109, ../scss/v2.scss */
+h1, h2, h3, h4, h5, h6, figure, ul, ol, nav, p, div {
+  padding: 0px;
+  margin: 0px 0px 3vmin;
+  box-sizing: border-box;
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+/*
+ * Image replacement
+ */
+/* line 137, ../scss/v2.scss */
+.ir {
+  background-color: transparent;
+  border: 0;
+  overflow: hidden;
+  /* IE 6/7 fallback */
+  *text-indent: -9999px;
+}
+
+/* line 145, ../scss/v2.scss */
+.ir:before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 100%;
+}
+
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+/* line 156, ../scss/v2.scss */
+.hidden {
+  display: none !important;
+  visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+/* line 165, ../scss/v2.scss */
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+/* line 182, ../scss/v2.scss */
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+/* line 195, ../scss/v2.scss */
+.invisible {
+  visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+/* line 212, ../scss/v2.scss */
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+/* line 217, ../scss/v2.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+/* line 226, ../scss/v2.scss */
+.clearfix {
+  *zoom: 1;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   Theses examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+@media only screen and (min-width: 35em) {
+  /* Style adjustments for viewports that meet the condition */
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) {
+  /* Style adjustments for high resolution devices */
+}
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+@media print {
+  /* line 251, ../scss/v2.scss */
+  * {
+    background: transparent !important;
+    color: #000 !important;
+    /* Black prints faster: h5bp.com/s */
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  /* line 259, ../scss/v2.scss */
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+  /* line 263, ../scss/v2.scss */
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  /* line 267, ../scss/v2.scss */
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+  /*
+   * Don't show links for images, or javascript/internal links
+   */
+  /* line 277, ../scss/v2.scss */
+  .ir a:after,
+  a[href^="javascript:"]:after,
+  a[href^="#"]:after {
+    content: "";
+  }
+
+  /* line 282, ../scss/v2.scss */
+  pre,
+  blockquote {
+    background-color: rgba(0, 0, 0, 0.1);
+    page-break-inside: avoid;
+  }
+
+  /* line 287, ../scss/v2.scss */
+  blockquote {
+    margin: 0px;
+  }
+
+  /* line 291, ../scss/v2.scss */
+  thead {
+    display: table-header-group;
+    /* h5bp.com/t */
+  }
+
+  /* line 296, ../scss/v2.scss */
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  /* line 300, ../scss/v2.scss */
+  img {
+    max-width: 100% !important;
+  }
+
+  @page {
+    margin: 0.5cm;
+}
+
+  /* line 310, ../scss/v2.scss */
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  /* line 316, ../scss/v2.scss */
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}
+/* ==================================
+			   Main
+================================== */
+/* line 325, ../scss/v2.scss */
+#viewportWatch {
+  color: #f00;
+  padding: .5em;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  background-color: rgba(0, 0, 0, 0.4);
+  opacity: 0.3;
+  z-index: 1000;
+  font-size: 3em;
+}
+
+/* ****************************************
+	Variables
+******************************************/
+/* ****************************************
+	Text
+******************************************/
+/* line 381, ../scss/v2.scss */
+html {
+  font-size: 10vmin;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  color: #333;
+}
+
+/* line 388, ../scss/v2.scss */
+h1, h2, h3, h4, h5, h6, p {
+  line-height: 1.6em;
+  margin: 0px;
+  /* margin-top:-.3em; */
+  position: relative;
+  top: -0.3em;
+}
+
+/* line 396, ../scss/v2.scss */
+h1, h2, h3, h4, h5, h6 {
+  text-transform: capitalize;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+}
+
+/* line 402, ../scss/v2.scss */
+h1, h3, h5, h6 {
+  font-weight: 400;
+}
+
+/* line 406, ../scss/v2.scss */
+h1 {
+  font-size: 6em;
+  margin-bottom: 0.41667em;
+}
+
+/* line 411, ../scss/v2.scss */
+h2 {
+  font-size: 5em;
+  margin-bottom: 0.5em;
+}
+
+/* line 416, ../scss/v2.scss */
+h3, h4 {
+  font-size: 4.5em;
+  margin-bottom: 1.11111em;
+}
+
+/* line 421, ../scss/v2.scss */
+h5, h6, p {
+  font-size: 4em;
+  margin-bottom: 1.25em;
+}
+
+/* line 427, ../scss/v2.scss */
+blockquote {
+  font-size: 3.5em;
+  margin: 0px;
+  margin-bottom: 1.42857em;
+  padding: 1.71429em;
+  line-height: 1.6em;
+  background-color: rgba(0, 0, 0, 0.15);
+  clear: both;
+}
+
+/* line 437, ../scss/v2.scss */
+figcaption {
+  font-size: 3.5em;
+  margin: 0px;
+  box-sizing: border-box;
+  padding: 0.85714em;
+  background-color: #bbb;
+}
+
+/* line 445, ../scss/v2.scss */
+.heroImg {
+  background-color: #555;
+  margin-bottom: 5em;
+  margin: 0px;
+  margin-bottom: 3em;
+}
+/* line 451, ../scss/v2.scss */
+.heroImg img {
+  width: 100%;
+  height: auto;
+}
+
+@media all and (orientation: portrait) {
+  /* line 459, ../scss/v2.scss */
+  .heroImg {
+    width: 100%;
+  }
+  /* line 462, ../scss/v2.scss */
+  .heroImg img {
+    height: 60em;
+  }
+}
+@media all and (orientation: landscape) {
+  /* line 470, ../scss/v2.scss */
+  .heroImg {
+    width: 45em;
+    float: right;
+    margin-left: 3em;
+  }
+  /* line 475, ../scss/v2.scss */
+  .heroImg img {
+    height: 45em;
+  }
+
+  /* line 480, ../scss/v2.scss */
+  .heroImg:nth-of-type(even) {
+    float: left;
+    margin-left: 0px;
+    margin-right: 3em;
+  }
+
+  /* line 486, ../scss/v2.scss */
+  .figcaption {
+    width: 50em;
+  }
+}
+/* ****************************************
+	Content Areas
+******************************************/
+/* line 495, ../scss/v2.scss */
+#content-wrap {
+  margin: 0px;
+  padding: 0px;
+}
+
+@media all and (orientation: portrait) {
+  /* line 506, ../scss/v2.scss */
+  #content, #navDrawer {
+    padding: 19em 3em 3em;
+  }
+
+  /* line 510, ../scss/v2.scss */
+  #content-wrap {
+    padding-top: 16em;
+  }
+}
+@media all and (orientation: landscape) {
+  /* line 517, ../scss/v2.scss */
+  #content, #navDrawer {
+    padding: 3em 3em 3em 19em;
+  }
+
+  /* line 521, ../scss/v2.scss */
+  #content-wrap {
+    padding-left: 16em;
+  }
+}
+/* line 526, ../scss/v2.scss */
+#content {
+  padding: 3em;
+}
+
+/* ****************************************
+	Header & Nav
+******************************************/
+/* line 534, ../scss/v2.scss */
+header {
+  background-color: #999;
+  box-sizing: border-box;
+  position: fixed;
+  z-index: 200;
+}
+
+/* line 541, ../scss/v2.scss */
+#logo, #navToggle {
+  background-color: #bbb;
+  height: 10em;
+}
+
+/* line 549, ../scss/v2.scss */
+#navToggle {
+  width: 10em;
+  cursor: pointer;
+}
+
+/* line 554, ../scss/v2.scss */
+#siteNav {
+  position: fixed;
+  z-index: 100;
+  background-color: #666;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  display: none;
+}
+
+/* line 565, ../scss/v2.scss */
+#siteNav.active {
+  display: block;
+}
+
+/* line 569, ../scss/v2.scss */
+#navDrawer li {
+  font-size: 6em;
+  margin-bottom: 0.83333em;
+  border-bottom: 1px solid #aaa;
+  color: #eee;
+}
+
+@media all and (orientation: portrait) {
+  /* line 579, ../scss/v2.scss */
+  header {
+    height: 16em;
+    width: 100%;
+    padding: 3em 3em 0em;
+    padding: 3em 3em 0em;
+  }
+
+  /* line 586, ../scss/v2.scss */
+  #logo {
+    width: 50em;
+    float: left;
+  }
+
+  /* line 591, ../scss/v2.scss */
+  #navToggle {
+    float: right;
+  }
+}
+@media all and (orientation: landscape) {
+  /* line 598, ../scss/v2.scss */
+  header {
+    width: 16em;
+    height: 100%;
+    padding: 3em 0em 3em 3em;
+    padding: 3em 0em 3em 3em;
+  }
+
+  /* line 605, ../scss/v2.scss */
+  #logo {
+    width: 10em;
+    margin-bottom: 5em;
+  }
+}
+/* line 611, ../scss/v2.scss */
+#content-wrap {
+  display: -webkit-box;
+}
+
+/* line 615, ../scss/v2.scss */
+#sidebar {
+  background-color: #666;
+  padding: 3em;
+  color: #ddd;
+}
+
+@media all and (orientation: portrait) {
+  /* line 623, ../scss/v2.scss */
+  #content-wrap {
+    -webkit-box-orient: vertical;
+  }
+}
+@media all and (orientation: landscape) {
+  /* line 631, ../scss/v2.scss */
+  #content-wrap {
+    -webkit-box-orient: horizontal;
+  }
+
+  /* line 635, ../scss/v2.scss */
+  #sidebar {
+    width: 300px;
+    margin-left: 1.5em;
+    -webkit-box-flex: 0.0;
+  }
+
+  /* line 641, ../scss/v2.scss */
+  #content {
+    -webkit-box-flex: 1.0;
+  }
+}
+/* line 646, ../scss/v2.scss */
+#siteFoot {
+  background-color: #555;
+}
