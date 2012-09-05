@@ -1,0 +1,35 @@
+h1, .h1 {
+    font-size:$fs-h1 * 1em;
+    margin-bottom:(($margin-bottom-int / 2) / $fs-h1) * 1em; 
+}
+
+h2, .h2 {
+    font-size:$fs-h2 * 1em;
+    margin-bottom:(($margin-bottom-int / 2) / $fs-h2) * 1em; 
+}
+
+h3, .h3 { 
+    font-size:$fs-h3 * 1em;
+    margin-bottom:($margin-bottom-int / $fs-h3) * 1em; 
+}
+
+h5, h6, p {
+    font-size:$fs-p * 1em;
+    margin-bottom:($margin-bottom-int / $fs-p) * 1em; 
+    
+}
+
+blockquote {
+    font-size:$fs-bq * 1em;
+    margin-bottom:($margin-bottom-int / $fs-bq) * 1em; 
+    padding:($d-content-margin-int * 2 / $fs-bq) * 1em; 
+}
+
+figcaption {
+    font-size:$fs-fc * 1em;
+    padding:($d-content-margin-int * 2 / $fs-fc) * 1em; 
+}
+
+#site-nav a {
+    font-size:$fs-p * 1em;
+}

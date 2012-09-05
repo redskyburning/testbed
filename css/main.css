@@ -8,7 +8,7 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
-/* line 19, ../scss/main.scss */
+/* line 17, ../scss/base.scss */
 html,
 button,
 input,
@@ -17,24 +17,24 @@ textarea {
   color: #222;
 }
 
-/* line 23, ../scss/main.scss */
+/* line 21, ../scss/base.scss */
 body {
   font-size: 1em;
   line-height: 1.4;
 }
 
-/* line 28, ../scss/main.scss */
+/* line 26, ../scss/base.scss */
 a {
   color: inherit;
   text-decoration: none;
 }
 
-/* line 33, ../scss/main.scss */
+/* line 31, ../scss/base.scss */
 a:visited {
   color: inherit;
 }
 
-/* line 37, ../scss/main.scss */
+/* line 35, ../scss/base.scss */
 a:hover {
   color: inherit;
 }
@@ -44,13 +44,13 @@ a:hover {
  * These selection declarations have to be separate.
  * Customize the background color to match your design.
  */
-/* line 47, ../scss/main.scss */
+/* line 45, ../scss/base.scss */
 ::-moz-selection {
   background: #b3d4fc;
   text-shadow: none;
 }
 
-/* line 52, ../scss/main.scss */
+/* line 50, ../scss/base.scss */
 ::selection {
   background: #b3d4fc;
   text-shadow: none;
@@ -59,7 +59,7 @@ a:hover {
 /*
  * A better looking default horizontal rule
  */
-/* line 61, ../scss/main.scss */
+/* line 59, ../scss/base.scss */
 hr {
   display: block;
   height: 1px;
@@ -72,7 +72,7 @@ hr {
 /*
  * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
  */
-/* line 74, ../scss/main.scss */
+/* line 72, ../scss/base.scss */
 img {
   vertical-align: middle;
 }
@@ -80,7 +80,7 @@ img {
 /*
  * Remove default fieldset styles.
  */
-/* line 82, ../scss/main.scss */
+/* line 80, ../scss/base.scss */
 fieldset {
   border: 0;
   margin: 0;
@@ -90,7 +90,7 @@ fieldset {
 /*
  * Allow only vertical resizing of textareas.
  */
-/* line 92, ../scss/main.scss */
+/* line 90, ../scss/base.scss */
 textarea {
   resize: vertical;
 }
@@ -98,7 +98,7 @@ textarea {
 /* ==========================================================================
    Chrome Frame prompt
    ========================================================================== */
-/* line 100, ../scss/main.scss */
+/* line 98, ../scss/base.scss */
 .chromeframe {
   margin: 0.2em 0;
   background: #ccc;
@@ -109,7 +109,7 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-/* line 111, ../scss/main.scss */
+/* line 109, ../scss/base.scss */
 h1, h2, h3, h4, h5, h6, figure, ul, ol, nav, p, div, header, footer, figcaption, blockquote {
   padding: 0px;
   margin: 0px;
@@ -122,7 +122,7 @@ h1, h2, h3, h4, h5, h6, figure, ul, ol, nav, p, div, header, footer, figcaption,
 /*
  * Image replacement
  */
-/* line 139, ../scss/main.scss */
+/* line 137, ../scss/base.scss */
 .ir {
   background-color: transparent;
   border: 0;
@@ -131,7 +131,7 @@ h1, h2, h3, h4, h5, h6, figure, ul, ol, nav, p, div, header, footer, figcaption,
   *text-indent: -9999px;
 }
 
-/* line 147, ../scss/main.scss */
+/* line 145, ../scss/base.scss */
 .ir:before {
   content: "";
   display: block;
@@ -142,7 +142,7 @@ h1, h2, h3, h4, h5, h6, figure, ul, ol, nav, p, div, header, footer, figcaption,
 /*
  * Hide from both screenreaders and browsers: h5bp.com/u
  */
-/* line 158, ../scss/main.scss */
+/* line 156, ../scss/base.scss */
 .hidden {
   display: none !important;
   visibility: hidden;
@@ -151,7 +151,7 @@ h1, h2, h3, h4, h5, h6, figure, ul, ol, nav, p, div, header, footer, figcaption,
 /*
  * Hide only visually, but have it available for screenreaders: h5bp.com/v
  */
-/* line 167, ../scss/main.scss */
+/* line 165, ../scss/base.scss */
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -167,7 +167,7 @@ h1, h2, h3, h4, h5, h6, figure, ul, ol, nav, p, div, header, footer, figcaption,
  * Extends the .visuallyhidden class to allow the element to be focusable
  * when navigated to via the keyboard: h5bp.com/p
  */
-/* line 184, ../scss/main.scss */
+/* line 182, ../scss/base.scss */
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
   clip: auto;
@@ -181,7 +181,7 @@ h1, h2, h3, h4, h5, h6, figure, ul, ol, nav, p, div, header, footer, figcaption,
 /*
  * Hide visually and from screenreaders, but maintain layout
  */
-/* line 197, ../scss/main.scss */
+/* line 195, ../scss/base.scss */
 .invisible {
   visibility: hidden;
 }
@@ -197,7 +197,7 @@ h1, h2, h3, h4, h5, h6, figure, ul, ol, nav, p, div, header, footer, figcaption,
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-/* line 214, ../scss/main.scss */
+/* line 212, ../scss/base.scss */
 .clearfix:before,
 .clearfix:after {
   content: " ";
@@ -206,7 +206,7 @@ h1, h2, h3, h4, h5, h6, figure, ul, ol, nav, p, div, header, footer, figcaption,
   /* 2 */
 }
 
-/* line 219, ../scss/main.scss */
+/* line 217, ../scss/base.scss */
 .clearfix:after {
   clear: both;
 }
@@ -215,7 +215,7 @@ h1, h2, h3, h4, h5, h6, figure, ul, ol, nav, p, div, header, footer, figcaption,
  * For IE 6/7 only
  * Include this rule to trigger hasLayout and contain floats.
  */
-/* line 228, ../scss/main.scss */
+/* line 226, ../scss/base.scss */
 .clearfix {
   *zoom: 1;
 }
@@ -236,7 +236,7 @@ h1, h2, h3, h4, h5, h6, figure, ul, ol, nav, p, div, header, footer, figcaption,
    Inlined to avoid required HTTP connection: h5bp.com/r
    ========================================================================== */
 @media print {
-  /* line 253, ../scss/main.scss */
+  /* line 251, ../scss/base.scss */
   * {
     background: transparent !important;
     color: #000 !important;
@@ -245,18 +245,18 @@ h1, h2, h3, h4, h5, h6, figure, ul, ol, nav, p, div, header, footer, figcaption,
     text-shadow: none !important;
   }
 
-  /* line 261, ../scss/main.scss */
+  /* line 259, ../scss/base.scss */
   a,
   a:visited {
     text-decoration: underline;
   }
 
-  /* line 265, ../scss/main.scss */
+  /* line 263, ../scss/base.scss */
   a[href]:after {
     content: " (" attr(href) ")";
   }
 
-  /* line 269, ../scss/main.scss */
+  /* line 267, ../scss/base.scss */
   abbr[title]:after {
     content: " (" attr(title) ")";
   }
@@ -264,38 +264,38 @@ h1, h2, h3, h4, h5, h6, figure, ul, ol, nav, p, div, header, footer, figcaption,
   /*
    * Don't show links for images, or javascript/internal links
    */
-  /* line 279, ../scss/main.scss */
+  /* line 277, ../scss/base.scss */
   .ir a:after,
   a[href^="javascript:"]:after,
   a[href^="#"]:after {
     content: "";
   }
 
-  /* line 284, ../scss/main.scss */
+  /* line 282, ../scss/base.scss */
   pre,
   blockquote {
     background-color: rgba(0, 0, 0, 0.1);
     page-break-inside: avoid;
   }
 
-  /* line 289, ../scss/main.scss */
+  /* line 287, ../scss/base.scss */
   blockquote {
     margin: 0px;
   }
 
-  /* line 293, ../scss/main.scss */
+  /* line 291, ../scss/base.scss */
   thead {
     display: table-header-group;
     /* h5bp.com/t */
   }
 
-  /* line 298, ../scss/main.scss */
+  /* line 296, ../scss/base.scss */
   tr,
   img {
     page-break-inside: avoid;
   }
 
-  /* line 302, ../scss/main.scss */
+  /* line 300, ../scss/base.scss */
   img {
     max-width: 100% !important;
   }
@@ -304,7 +304,7 @@ h1, h2, h3, h4, h5, h6, figure, ul, ol, nav, p, div, header, footer, figcaption,
     margin: 0.5cm;
 }
 
-  /* line 312, ../scss/main.scss */
+  /* line 310, ../scss/base.scss */
   p,
   h2,
   h3 {
@@ -312,7 +312,7 @@ h1, h2, h3, h4, h5, h6, figure, ul, ol, nav, p, div, header, footer, figcaption,
     widows: 3;
   }
 
-  /* line 318, ../scss/main.scss */
+  /* line 316, ../scss/base.scss */
   h2,
   h3 {
     page-break-after: avoid;
@@ -321,9 +321,9 @@ h1, h2, h3, h4, h5, h6, figure, ul, ol, nav, p, div, header, footer, figcaption,
 /* ==================================
 			   Main
 ================================== */
-/* line 327, ../scss/main.scss */
+/* line 9, ../scss/main.scss */
 #viewportWatch {
-  color: #f00;
+  color: #fff;
   padding: .5em;
   position: fixed;
   top: 0px;
@@ -340,7 +340,7 @@ h1, h2, h3, h4, h5, h6, figure, ul, ol, nav, p, div, header, footer, figcaption,
 /* ****************************************
 	"Scet" Content
 ******************************************/
-/* line 362, ../scss/main.scss */
+/* line 44, ../scss/main.scss */
 html {
   font-size: 1vmin;
   font-family: 'Lato', sans-serif;
@@ -348,24 +348,24 @@ html {
   color: #333;
 }
 
-/* line 369, ../scss/main.scss */
+/* line 51, ../scss/main.scss */
 h1, h2, h3, h4, h5, h6, p, figcaption, blockquote {
   line-height: 1.6em;
 }
 
-/* line 373, ../scss/main.scss */
+/* line 55, ../scss/main.scss */
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   text-transform: capitalize;
   font-family: 'Oswald', sans-serif;
   font-weight: 300;
 }
 
-/* line 379, ../scss/main.scss */
+/* line 61, ../scss/main.scss */
 h1, h3, h5, h6, .h1, .h3, .h5, .h6 {
   font-weight: 400;
 }
 
-/* line 383, ../scss/main.scss */
+/* line 65, ../scss/main.scss */
 blockquote {
   margin: 0px;
   background-color: rgba(0, 0, 0, 0.15);
@@ -373,136 +373,136 @@ blockquote {
   line-height: 1.6em;
 }
 
-/* line 390, ../scss/main.scss */
+/* line 72, ../scss/main.scss */
 figcaption {
   background-color: #bbb;
 }
 
 @media screen and (orientation: portrait) and (max-width: 500px), (orientation: landscape) and (max-height: 500px) {
-  /* line 403, ../scss/main.scss */
+  /* line 1, ../scss/scet.scss */
   h1, .h1 {
     font-size: 6em;
     margin-bottom: 0.41667em;
   }
 
-  /* line 408, ../scss/main.scss */
+  /* line 6, ../scss/scet.scss */
   h2, .h2 {
     font-size: 5em;
     margin-bottom: 0.5em;
   }
 
-  /* line 413, ../scss/main.scss */
+  /* line 11, ../scss/scet.scss */
   h3, .h3 {
     font-size: 4.5em;
     margin-bottom: 1.11111em;
   }
 
-  /* line 418, ../scss/main.scss */
+  /* line 16, ../scss/scet.scss */
   h5, h6, p {
     font-size: 4em;
     margin-bottom: 1.25em;
   }
 
-  /* line 424, ../scss/main.scss */
+  /* line 22, ../scss/scet.scss */
   blockquote {
     font-size: 3.5em;
     margin-bottom: 1.42857em;
-    padding: 2.28571em;
+    padding: 0.85714em;
   }
 
-  /* line 430, ../scss/main.scss */
+  /* line 28, ../scss/scet.scss */
   figcaption {
     font-size: 3.5em;
-    padding: 2.28571em;
+    padding: 0.85714em;
   }
 
-  /* line 435, ../scss/main.scss */
+  /* line 33, ../scss/scet.scss */
   #site-nav a {
     font-size: 4em;
   }
 }
 @media screen and (orientation: portrait) and (min-width: 501px), (orientation: landscape) and (min-height: 501px) {
-  /* line 449, ../scss/main.scss */
+  /* line 1, ../scss/scet.scss */
   h1, .h1 {
     font-size: 4em;
     margin-bottom: 0.625em;
   }
 
-  /* line 454, ../scss/main.scss */
+  /* line 6, ../scss/scet.scss */
   h2, .h2 {
     font-size: 3em;
     margin-bottom: 0.83333em;
   }
 
-  /* line 459, ../scss/main.scss */
+  /* line 11, ../scss/scet.scss */
   h3, .h3 {
     font-size: 2.5em;
     margin-bottom: 2em;
   }
 
-  /* line 464, ../scss/main.scss */
+  /* line 16, ../scss/scet.scss */
   h5, h6, p {
     font-size: 2.5em;
     margin-bottom: 2em;
   }
 
-  /* line 470, ../scss/main.scss */
+  /* line 22, ../scss/scet.scss */
   blockquote {
     font-size: 2.25em;
     margin-bottom: 2.22222em;
-    padding: 1.77778em;
+    padding: 1.33333em;
   }
 
-  /* line 476, ../scss/main.scss */
+  /* line 28, ../scss/scet.scss */
   figcaption {
     font-size: 2.25em;
-    padding: 1.77778em;
+    padding: 1.33333em;
   }
 
-  /* line 481, ../scss/main.scss */
+  /* line 33, ../scss/scet.scss */
   #site-nav a {
     font-size: 2.5em;
   }
 }
 @media screen and (orientation: portrait) and (min-width: 750px), (orientation: landscape) and (min-height: 750px) {
-  /* line 495, ../scss/main.scss */
+  /* line 1, ../scss/scet.scss */
   h1, .h1 {
     font-size: 4em;
     margin-bottom: 0.625em;
   }
 
-  /* line 500, ../scss/main.scss */
+  /* line 6, ../scss/scet.scss */
   h2, .h2 {
     font-size: 3em;
     margin-bottom: 0.83333em;
   }
 
-  /* line 505, ../scss/main.scss */
+  /* line 11, ../scss/scet.scss */
   h3, .h3 {
     font-size: 2.5em;
     margin-bottom: 2em;
   }
 
-  /* line 510, ../scss/main.scss */
+  /* line 16, ../scss/scet.scss */
   h5, h6, p {
     font-size: 2em;
     margin-bottom: 2.5em;
   }
 
-  /* line 516, ../scss/main.scss */
+  /* line 22, ../scss/scet.scss */
   blockquote {
     font-size: 1.8em;
     margin-bottom: 2.77778em;
     padding: 1.66667em;
   }
 
-  /* line 522, ../scss/main.scss */
+  /* line 28, ../scss/scet.scss */
   figcaption {
     font-size: 1.8em;
     padding: 1.66667em;
   }
 
-  /* line 527, ../scss/main.scss */
+  /* line 33, ../scss/scet.scss */
   #site-nav a {
     font-size: 2em;
   }
@@ -510,90 +510,102 @@ figcaption {
 /* **************
 	Hero Image 
 ************** */
-/* line 536, ../scss/main.scss */
-.heroImg {
+/* line 116, ../scss/main.scss */
+.heroImg, .stream-image {
   background-color: #555;
 }
-/* line 539, ../scss/main.scss */
-.heroImg img {
+/* line 119, ../scss/main.scss */
+.heroImg img, .stream-image img {
   width: 100%;
   height: auto;
 }
 
 @media (orientation: portrait) {
-  /* line 547, ../scss/main.scss */
+  /* line 127, ../scss/main.scss */
   .heroImg {
     width: 100%;
   }
-  /* line 550, ../scss/main.scss */
+  /* line 130, ../scss/main.scss */
   .heroImg img {
     height: 60em;
   }
 }
 @media (orientation: landscape) {
-  /* line 558, ../scss/main.scss */
+  /* line 138, ../scss/main.scss */
   .heroImg {
     float: right;
     width: 45em;
   }
-  /* line 562, ../scss/main.scss */
+  /* line 142, ../scss/main.scss */
   .heroImg img {
     height: 30em;
   }
 
-  /* line 567, ../scss/main.scss */
+  /* line 147, ../scss/main.scss */
   .heroImg:nth-of-type(even) {
     margin-left: 0px;
     float: left;
   }
 }
 @media screen and (orientation: portrait) and (max-width: 500px) and (orientation: portrait), (orientation: landscape) and (max-height: 500px) and (orientation: portrait) {
-  /* line 576, ../scss/main.scss */
-  .heroImg {
+  /* line 156, ../scss/main.scss */
+  .heroImg, .stream-image {
     margin-bottom: 4em;
   }
 }
 @media screen and (orientation: portrait) and (max-width: 500px) and (orientation: landscape), (orientation: landscape) and (max-height: 500px) and (orientation: landscape) {
-  /* line 583, ../scss/main.scss */
+  /* line 163, ../scss/main.scss */
   .heroImg {
     margin-left: 4em;
   }
 
-  /* line 587, ../scss/main.scss */
+  /* line 167, ../scss/main.scss */
   .heroImg:nth-of-type(even) {
     margin-right: 4em;
   }
 }
+@media screen and (orientation: portrait) and (min-width: 501px), (orientation: landscape) and (min-height: 501px) {
+  /* line 175, ../scss/main.scss */
+  .stream-image {
+    margin-right: 2em;
+  }
+}
 @media screen and (orientation: portrait) and (min-width: 501px) and (orientation: portrait), (orientation: landscape) and (min-height: 501px) and (orientation: portrait) {
-  /* line 596, ../scss/main.scss */
-  .heroImg {
+  /* line 181, ../scss/main.scss */
+  .heroImg, .stream-image {
     margin-bottom: 2em;
   }
 }
 @media screen and (orientation: portrait) and (min-width: 501px) and (orientation: landscape), (orientation: landscape) and (min-height: 501px) and (orientation: landscape) {
-  /* line 603, ../scss/main.scss */
+  /* line 188, ../scss/main.scss */
   .heroImg {
     margin-left: 2em;
   }
 
-  /* line 607, ../scss/main.scss */
+  /* line 192, ../scss/main.scss */
   .heroImg:nth-of-type(even) {
     margin-right: 2em;
   }
 }
+@media screen and (orientation: portrait) and (min-width: 750px), (orientation: landscape) and (min-height: 750px) {
+  /* line 200, ../scss/main.scss */
+  .stream-image {
+    margin-right: 2em;
+  }
+}
 @media screen and (orientation: portrait) and (min-width: 750px) and (orientation: portrait), (orientation: landscape) and (min-height: 750px) and (orientation: portrait) {
-  /* line 616, ../scss/main.scss */
-  .heroImg {
+  /* line 206, ../scss/main.scss */
+  .heroImg, .stream-image {
     margin-bottom: 2em;
   }
 }
 @media screen and (orientation: portrait) and (min-width: 750px) and (orientation: landscape), (orientation: landscape) and (min-height: 750px) and (orientation: landscape) {
-  /* line 623, ../scss/main.scss */
+  /* line 213, ../scss/main.scss */
   .heroImg {
     margin-left: 2em;
   }
 
-  /* line 627, ../scss/main.scss */
+  /* line 217, ../scss/main.scss */
   .heroImg:nth-of-type(even) {
     margin-right: 2em;
   }
@@ -623,7 +635,7 @@ $header-icon-min:10em; */
 	}
 	
 } */
-/* line 671, ../scss/main.scss */
+/* line 261, ../scss/main.scss */
 #site-header {
   background: #bbb;
   position: fixed;
@@ -632,122 +644,122 @@ $header-icon-min:10em; */
   left: 0px;
   box-sizing: border-box;
 }
-/* line 679, ../scss/main.scss */
+/* line 269, ../scss/main.scss */
 #site-header > * {
   background: #aaa;
 }
 @media screen and (orientation: landscape) {
-  /* line 671, ../scss/main.scss */
+  /* line 261, ../scss/main.scss */
   #site-header {
     height: 100%;
   }
-  /* line 686, ../scss/main.scss */
+  /* line 276, ../scss/main.scss */
   #site-header > *:last-child {
     margin-bottom: 0px;
   }
 }
 @media screen and (orientation: portrait) {
-  /* line 671, ../scss/main.scss */
+  /* line 261, ../scss/main.scss */
   #site-header {
     width: 100%;
   }
-  /* line 694, ../scss/main.scss */
+  /* line 284, ../scss/main.scss */
   #site-header > * {
     display: inline-block;
     vertical-align: top;
     margin-right: 4em;
   }
-  /* line 700, ../scss/main.scss */
+  /* line 290, ../scss/main.scss */
   #site-header > *:last-child {
     margin-right: 0px;
   }
 }
 
 @media screen and (orientation: portrait) and (max-width: 500px), (orientation: landscape) and (max-height: 500px) {
-  /* line 708, ../scss/main.scss */
+  /* line 298, ../scss/main.scss */
   #site-header {
     padding: 4em;
   }
 
-  /* line 712, ../scss/main.scss */
+  /* line 302, ../scss/main.scss */
   #site-header > * {
     height: 11em;
     width: 11em;
   }
 }
 @media screen and (orientation: portrait) and (max-width: 500px) and (orientation: landscape), (orientation: landscape) and (max-height: 500px) and (orientation: landscape) {
-  /* line 718, ../scss/main.scss */
+  /* line 308, ../scss/main.scss */
   body {
     padding-left: 19em;
   }
 
-  /* line 722, ../scss/main.scss */
+  /* line 312, ../scss/main.scss */
   #site-header {
     width: 19em;
   }
-  /* line 725, ../scss/main.scss */
+  /* line 315, ../scss/main.scss */
   #site-header > * {
     margin-bottom: 4em;
   }
 }
 @media screen and (orientation: portrait) and (max-width: 500px) and (orientation: portrait), (orientation: landscape) and (max-height: 500px) and (orientation: portrait) {
-  /* line 732, ../scss/main.scss */
+  /* line 322, ../scss/main.scss */
   body {
     padding-top: 19em;
   }
 
-  /* line 736, ../scss/main.scss */
+  /* line 326, ../scss/main.scss */
   #site-header {
     height: 19em;
   }
-  /* line 739, ../scss/main.scss */
+  /* line 329, ../scss/main.scss */
   #site-header > * {
     margin-right: 4em;
   }
 }
 @media screen and (orientation: portrait) and (min-width: 501px), (orientation: landscape) and (min-height: 501px) {
-  /* line 748, ../scss/main.scss */
+  /* line 338, ../scss/main.scss */
   #site-header {
     padding: 2em;
   }
 
-  /* line 752, ../scss/main.scss */
+  /* line 342, ../scss/main.scss */
   #site-header > * {
     height: 7em;
     width: 7em;
   }
 }
 @media screen and (orientation: portrait) and (min-width: 501px) and (orientation: landscape), (orientation: landscape) and (min-height: 501px) and (orientation: landscape) {
-  /* line 758, ../scss/main.scss */
+  /* line 348, ../scss/main.scss */
   body {
     padding-left: 11em;
   }
 
-  /* line 762, ../scss/main.scss */
+  /* line 352, ../scss/main.scss */
   #site-header {
     width: 11em;
   }
-  /* line 765, ../scss/main.scss */
+  /* line 355, ../scss/main.scss */
   #site-header > * {
     margin-bottom: 2em;
   }
 }
 @media screen and (orientation: portrait) and (min-width: 501px) and (orientation: portrait), (orientation: landscape) and (min-height: 501px) and (orientation: portrait) {
-  /* line 772, ../scss/main.scss */
+  /* line 362, ../scss/main.scss */
   body {
     padding-top: 11em;
   }
 
-  /* line 776, ../scss/main.scss */
+  /* line 366, ../scss/main.scss */
   #site-header {
     height: 11em;
   }
-  /* line 779, ../scss/main.scss */
+  /* line 369, ../scss/main.scss */
   #site-header > * {
     margin-right: 2em;
   }
 }
-/* line 788, ../scss/main.scss */
+/* line 378, ../scss/main.scss */
 #site-nav ul {
   display: none;
 }
@@ -758,13 +770,13 @@ $header-icon-min:10em; */
 /* ****************************************
 	Tophat
 ******************************************/
-/* line 822, ../scss/main.scss */
+/* line 412, ../scss/main.scss */
 #tophat {
   padding: 4em;
   background: #666;
   color: #fff;
 }
-/* line 827, ../scss/main.scss */
+/* line 417, ../scss/main.scss */
 #tophat h1 {
   margin: 0px;
   line-height: 1em;
@@ -773,34 +785,34 @@ $header-icon-min:10em; */
 /* ****************************************
 	Content-Body and Sidebar
 ******************************************/
-/* line 838, ../scss/main.scss */
+/* line 428, ../scss/main.scss */
 #content-wrap {
   min-height: 85em;
 }
 
-/* line 842, ../scss/main.scss */
+/* line 432, ../scss/main.scss */
 #content-body, #sidebar {
   padding: 4em;
 }
 
-/* line 846, ../scss/main.scss */
+/* line 436, ../scss/main.scss */
 #sidebar {
   background: #999;
 }
 
-/* line 850, ../scss/main.scss */
+/* line 440, ../scss/main.scss */
 .sidebar-module {
   background-color: rgba(255, 255, 255, 0.5);
   padding: 2em;
   margin-bottom: 4em;
 }
-/* line 855, ../scss/main.scss */
+/* line 445, ../scss/main.scss */
 .sidebar-module p {
   margin: 0px;
 }
 
 @media screen and (orientation: landscape) and (min-height: 650px) {
-  /* line 861, ../scss/main.scss */
+  /* line 451, ../scss/main.scss */
   #content-wrap {
     display: -webkit-box;
     display: -moz-box;
@@ -812,7 +824,7 @@ $header-icon-min:10em; */
     box-orient: horizontal;
   }
 
-  /* line 866, ../scss/main.scss */
+  /* line 456, ../scss/main.scss */
   #content-main {
     -webkit-box-flex: 1;
     -moz-box-flex: 1;
@@ -820,7 +832,7 @@ $header-icon-min:10em; */
     box-flex: 1;
   }
 
-  /* line 870, ../scss/main.scss */
+  /* line 460, ../scss/main.scss */
   #sidebar {
     -webkit-box-flex: 0;
     -moz-box-flex: 0;
@@ -828,7 +840,7 @@ $header-icon-min:10em; */
     box-flex: 0;
   }
 
-  /* line 874, ../scss/main.scss */
+  /* line 464, ../scss/main.scss */
   .sidebar-module {
     width: 300px;
     box-sizing: border-box;
@@ -837,14 +849,54 @@ $header-icon-min:10em; */
 /* ****************************************
 	Footer
 ******************************************/
-/* line 885, ../scss/main.scss */
+/* line 475, ../scss/main.scss */
 #site-footer {
   padding: 4em;
   background: #666;
   color: #fff;
   min-height: 15em;
 }
-/* line 891, ../scss/main.scss */
+/* line 481, ../scss/main.scss */
 #site-footer p {
   margin: 0px;
+}
+
+/* ****************************************
+	Stream
+******************************************/
+/* .stream-item {
+    margin-bottom:$t-content-margin;
+    @include display-box;
+    @include box-orient(horizontal);
+    
+    .stream-content {
+        @include box-flex(1);
+    }
+    
+    .stream-image {
+        @include box-flex(0);
+        width:35em;
+        height:35em;
+        
+        img {
+            width:100%;
+            height:auto;
+        }
+    }
+} */
+/* line 514, ../scss/main.scss */
+.stream-item {
+  margin-bottom: 2em;
+}
+/* line 520, ../scss/main.scss */
+.stream-item .stream-image {
+  margin-right: 2em;
+  float: left;
+  width: 40em;
+  height: 40em;
+}
+/* line 526, ../scss/main.scss */
+.stream-item .stream-image img {
+  width: 100%;
+  height: auto;
 }

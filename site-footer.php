@@ -1,0 +1,3 @@
+<footer id="site-footer">
+    <p>And it was because of all this that the bacteriologists had so little  chance in fighting the germs. They were killed in their laboratories  even as they studied the germ of the Scarlet Death. They were heroes.  As fast as they perished, others stepped forth and took their places.  It was in London that they first isolated it. The news was telegraphed  everywhere.</p>
+</footer>
