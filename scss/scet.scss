@@ -33,3 +33,28 @@ figcaption {
 #site-nav a {
     font-size:$fs-p * 1em;
 }
+
+#sidebar {
+    $sidebar-h1-adj:1;
+    $sb-h1:$fs-h1 * $sidebar-h1-adj;
+    $sidebar-pad:$t-content-margin-int;
+    $sidebar-off:.5 * 2 * $sidebar-pad;
+    $sidebar-h1-pad:vm($sidebar-off, $sb-h1);
+    
+    padding:em($sidebar-pad);
+    padding-right:0px;
+        
+    h1 {
+        background:#555;
+        color:#eee;
+        padding:0px;
+        font-size:em($sb-h1);
+        padding:.4em em($sidebar-h1-pad) .1em;
+        margin-left:em-neg($sidebar-h1-pad);
+        margin-bottom:.2em; 
+    }
+    
+	p {
+		margin:0px;
+	}
+}

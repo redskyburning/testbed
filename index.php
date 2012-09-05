@@ -4,12 +4,7 @@
     
     <div id="content-body">
         
-        <?php include('stream-fragment.php'); ?>
-        <?php include('stream-fragment.php'); ?>
-        <?php include('stream-fragment.php'); ?>
-        <?php include('stream-fragment.php'); ?>
-        <?php include('stream-fragment.php'); ?>
-        <?php include('stream-fragment.php'); ?>
+        
         
     </div>
 

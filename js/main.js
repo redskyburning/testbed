@@ -8,8 +8,8 @@ function vInfo(){
 }
 
 function vWatcher(){
-	$('#viewportWatch').html(vInfo().join(', '));
 	$('body').css('font-size',(vm * .01) + 'px');
+    alert('vm polyfil');
 }
 
 function toggleNav(){
@@ -22,12 +22,18 @@ function toggleNav(){
 }
 
 $(document).ready(function(){
-	vWatcher();
+    if(!Modernizr.cssvminunit){
+        vWatcher();
+    }
+	$('#viewportWatch').html(vInfo().join(', '));
 	$('#navToggle').click(function(){
 		$('#siteNav').toggle();
 	});
 });
 
 $(window).resize(function() {
-	vWatcher();
+    if(!Modernizr.cssvminunit){
+        vWatcher();
+    }
+	$('#viewportWatch').html(vInfo().join(', '));
 });

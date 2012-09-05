@@ -1,0 +1,11 @@
+@function vm($vm,$fs) {
+    @return $vm / $fs;
+}
+
+@function em($vm){
+    @return $vm * 1em;
+}
+
+@function em-neg($vm){
+    @return $vm * -1 * 1em;
+}

@@ -342,30 +342,31 @@ h1, h2, h3, h4, h5, h6, figure, ul, ol, nav, p, div, header, footer, figcaption,
 ******************************************/
 /* line 44, ../scss/main.scss */
 html {
+  font-size: 1vm;
   font-size: 1vmin;
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   color: #333;
 }
 
-/* line 51, ../scss/main.scss */
+/* line 52, ../scss/main.scss */
 h1, h2, h3, h4, h5, h6, p, figcaption, blockquote {
   line-height: 1.6em;
 }
 
-/* line 55, ../scss/main.scss */
+/* line 56, ../scss/main.scss */
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   text-transform: capitalize;
   font-family: 'Oswald', sans-serif;
   font-weight: 300;
 }
 
-/* line 61, ../scss/main.scss */
+/* line 62, ../scss/main.scss */
 h1, h3, h5, h6, .h1, .h3, .h5, .h6 {
   font-weight: 400;
 }
 
-/* line 65, ../scss/main.scss */
+/* line 66, ../scss/main.scss */
 blockquote {
   margin: 0px;
   background-color: rgba(0, 0, 0, 0.15);
@@ -373,7 +374,7 @@ blockquote {
   line-height: 1.6em;
 }
 
-/* line 72, ../scss/main.scss */
+/* line 73, ../scss/main.scss */
 figcaption {
   background-color: #bbb;
 }
@@ -420,6 +421,26 @@ figcaption {
   #site-nav a {
     font-size: 4em;
   }
+
+  /* line 37, ../scss/scet.scss */
+  #sidebar {
+    padding: 2em;
+    padding-right: 0px;
+  }
+  /* line 47, ../scss/scet.scss */
+  #sidebar h1 {
+    background: #555;
+    color: #eee;
+    padding: 0px;
+    font-size: 6em;
+    padding: 0.4em 0.33333em 0.1em;
+    margin-left: -0.33333em;
+    margin-bottom: .2em;
+  }
+  /* line 57, ../scss/scet.scss */
+  #sidebar p {
+    margin: 0px;
+  }
 }
 @media screen and (orientation: portrait) and (min-width: 501px), (orientation: landscape) and (min-height: 501px) {
   /* line 1, ../scss/scet.scss */
@@ -462,6 +483,26 @@ figcaption {
   /* line 33, ../scss/scet.scss */
   #site-nav a {
     font-size: 2.5em;
+  }
+
+  /* line 37, ../scss/scet.scss */
+  #sidebar {
+    padding: 2em;
+    padding-right: 0px;
+  }
+  /* line 47, ../scss/scet.scss */
+  #sidebar h1 {
+    background: #555;
+    color: #eee;
+    padding: 0px;
+    font-size: 4em;
+    padding: 0.4em 0.5em 0.1em;
+    margin-left: -0.5em;
+    margin-bottom: .2em;
+  }
+  /* line 57, ../scss/scet.scss */
+  #sidebar p {
+    margin: 0px;
   }
 }
 @media screen and (orientation: portrait) and (min-width: 750px), (orientation: landscape) and (min-height: 750px) {
@@ -506,106 +547,126 @@ figcaption {
   #site-nav a {
     font-size: 2em;
   }
+
+  /* line 37, ../scss/scet.scss */
+  #sidebar {
+    padding: 2em;
+    padding-right: 0px;
+  }
+  /* line 47, ../scss/scet.scss */
+  #sidebar h1 {
+    background: #555;
+    color: #eee;
+    padding: 0px;
+    font-size: 4em;
+    padding: 0.4em 0.5em 0.1em;
+    margin-left: -0.5em;
+    margin-bottom: .2em;
+  }
+  /* line 57, ../scss/scet.scss */
+  #sidebar p {
+    margin: 0px;
+  }
 }
 /* **************
 	Hero Image 
 ************** */
-/* line 116, ../scss/main.scss */
+/* line 117, ../scss/main.scss */
 .heroImg, .stream-image {
   background-color: #555;
 }
-/* line 119, ../scss/main.scss */
+/* line 120, ../scss/main.scss */
 .heroImg img, .stream-image img {
   width: 100%;
   height: auto;
 }
 
 @media (orientation: portrait) {
-  /* line 127, ../scss/main.scss */
+  /* line 128, ../scss/main.scss */
   .heroImg {
     width: 100%;
   }
-  /* line 130, ../scss/main.scss */
+  /* line 131, ../scss/main.scss */
   .heroImg img {
     height: 60em;
   }
 }
 @media (orientation: landscape) {
-  /* line 138, ../scss/main.scss */
+  /* line 139, ../scss/main.scss */
   .heroImg {
     float: right;
     width: 45em;
   }
-  /* line 142, ../scss/main.scss */
+  /* line 143, ../scss/main.scss */
   .heroImg img {
     height: 30em;
   }
 
-  /* line 147, ../scss/main.scss */
+  /* line 148, ../scss/main.scss */
   .heroImg:nth-of-type(even) {
     margin-left: 0px;
     float: left;
   }
 }
 @media screen and (orientation: portrait) and (max-width: 500px) and (orientation: portrait), (orientation: landscape) and (max-height: 500px) and (orientation: portrait) {
-  /* line 156, ../scss/main.scss */
+  /* line 157, ../scss/main.scss */
   .heroImg, .stream-image {
     margin-bottom: 4em;
   }
 }
 @media screen and (orientation: portrait) and (max-width: 500px) and (orientation: landscape), (orientation: landscape) and (max-height: 500px) and (orientation: landscape) {
-  /* line 163, ../scss/main.scss */
+  /* line 164, ../scss/main.scss */
   .heroImg {
     margin-left: 4em;
   }
 
-  /* line 167, ../scss/main.scss */
+  /* line 168, ../scss/main.scss */
   .heroImg:nth-of-type(even) {
     margin-right: 4em;
   }
 }
 @media screen and (orientation: portrait) and (min-width: 501px), (orientation: landscape) and (min-height: 501px) {
-  /* line 175, ../scss/main.scss */
+  /* line 176, ../scss/main.scss */
   .stream-image {
     margin-right: 2em;
   }
 }
 @media screen and (orientation: portrait) and (min-width: 501px) and (orientation: portrait), (orientation: landscape) and (min-height: 501px) and (orientation: portrait) {
-  /* line 181, ../scss/main.scss */
+  /* line 182, ../scss/main.scss */
   .heroImg, .stream-image {
     margin-bottom: 2em;
   }
 }
 @media screen and (orientation: portrait) and (min-width: 501px) and (orientation: landscape), (orientation: landscape) and (min-height: 501px) and (orientation: landscape) {
-  /* line 188, ../scss/main.scss */
+  /* line 189, ../scss/main.scss */
   .heroImg {
     margin-left: 2em;
   }
 
-  /* line 192, ../scss/main.scss */
+  /* line 193, ../scss/main.scss */
   .heroImg:nth-of-type(even) {
     margin-right: 2em;
   }
 }
 @media screen and (orientation: portrait) and (min-width: 750px), (orientation: landscape) and (min-height: 750px) {
-  /* line 200, ../scss/main.scss */
+  /* line 201, ../scss/main.scss */
   .stream-image {
     margin-right: 2em;
   }
 }
 @media screen and (orientation: portrait) and (min-width: 750px) and (orientation: portrait), (orientation: landscape) and (min-height: 750px) and (orientation: portrait) {
-  /* line 206, ../scss/main.scss */
+  /* line 207, ../scss/main.scss */
   .heroImg, .stream-image {
     margin-bottom: 2em;
   }
 }
 @media screen and (orientation: portrait) and (min-width: 750px) and (orientation: landscape), (orientation: landscape) and (min-height: 750px) and (orientation: landscape) {
-  /* line 213, ../scss/main.scss */
+  /* line 214, ../scss/main.scss */
   .heroImg {
     margin-left: 2em;
   }
 
-  /* line 217, ../scss/main.scss */
+  /* line 218, ../scss/main.scss */
   .heroImg:nth-of-type(even) {
     margin-right: 2em;
   }
@@ -635,7 +696,7 @@ $header-icon-min:10em; */
 	}
 	
 } */
-/* line 261, ../scss/main.scss */
+/* line 262, ../scss/main.scss */
 #site-header {
   background: #bbb;
   position: fixed;
@@ -644,122 +705,122 @@ $header-icon-min:10em; */
   left: 0px;
   box-sizing: border-box;
 }
-/* line 269, ../scss/main.scss */
+/* line 270, ../scss/main.scss */
 #site-header > * {
   background: #aaa;
 }
 @media screen and (orientation: landscape) {
-  /* line 261, ../scss/main.scss */
+  /* line 262, ../scss/main.scss */
   #site-header {
     height: 100%;
   }
-  /* line 276, ../scss/main.scss */
+  /* line 277, ../scss/main.scss */
   #site-header > *:last-child {
     margin-bottom: 0px;
   }
 }
 @media screen and (orientation: portrait) {
-  /* line 261, ../scss/main.scss */
+  /* line 262, ../scss/main.scss */
   #site-header {
     width: 100%;
   }
-  /* line 284, ../scss/main.scss */
+  /* line 285, ../scss/main.scss */
   #site-header > * {
     display: inline-block;
     vertical-align: top;
     margin-right: 4em;
   }
-  /* line 290, ../scss/main.scss */
+  /* line 291, ../scss/main.scss */
   #site-header > *:last-child {
     margin-right: 0px;
   }
 }
 
 @media screen and (orientation: portrait) and (max-width: 500px), (orientation: landscape) and (max-height: 500px) {
-  /* line 298, ../scss/main.scss */
+  /* line 299, ../scss/main.scss */
   #site-header {
     padding: 4em;
   }
 
-  /* line 302, ../scss/main.scss */
+  /* line 303, ../scss/main.scss */
   #site-header > * {
     height: 11em;
     width: 11em;
   }
 }
 @media screen and (orientation: portrait) and (max-width: 500px) and (orientation: landscape), (orientation: landscape) and (max-height: 500px) and (orientation: landscape) {
-  /* line 308, ../scss/main.scss */
+  /* line 309, ../scss/main.scss */
   body {
     padding-left: 19em;
   }
 
-  /* line 312, ../scss/main.scss */
+  /* line 313, ../scss/main.scss */
   #site-header {
     width: 19em;
   }
-  /* line 315, ../scss/main.scss */
+  /* line 316, ../scss/main.scss */
   #site-header > * {
     margin-bottom: 4em;
   }
 }
 @media screen and (orientation: portrait) and (max-width: 500px) and (orientation: portrait), (orientation: landscape) and (max-height: 500px) and (orientation: portrait) {
-  /* line 322, ../scss/main.scss */
+  /* line 323, ../scss/main.scss */
   body {
     padding-top: 19em;
   }
 
-  /* line 326, ../scss/main.scss */
+  /* line 327, ../scss/main.scss */
   #site-header {
     height: 19em;
   }
-  /* line 329, ../scss/main.scss */
+  /* line 330, ../scss/main.scss */
   #site-header > * {
     margin-right: 4em;
   }
 }
 @media screen and (orientation: portrait) and (min-width: 501px), (orientation: landscape) and (min-height: 501px) {
-  /* line 338, ../scss/main.scss */
+  /* line 339, ../scss/main.scss */
   #site-header {
     padding: 2em;
   }
 
-  /* line 342, ../scss/main.scss */
+  /* line 343, ../scss/main.scss */
   #site-header > * {
     height: 7em;
     width: 7em;
   }
 }
 @media screen and (orientation: portrait) and (min-width: 501px) and (orientation: landscape), (orientation: landscape) and (min-height: 501px) and (orientation: landscape) {
-  /* line 348, ../scss/main.scss */
+  /* line 349, ../scss/main.scss */
   body {
     padding-left: 11em;
   }
 
-  /* line 352, ../scss/main.scss */
+  /* line 353, ../scss/main.scss */
   #site-header {
     width: 11em;
   }
-  /* line 355, ../scss/main.scss */
+  /* line 356, ../scss/main.scss */
   #site-header > * {
     margin-bottom: 2em;
   }
 }
 @media screen and (orientation: portrait) and (min-width: 501px) and (orientation: portrait), (orientation: landscape) and (min-height: 501px) and (orientation: portrait) {
-  /* line 362, ../scss/main.scss */
+  /* line 363, ../scss/main.scss */
   body {
     padding-top: 11em;
   }
 
-  /* line 366, ../scss/main.scss */
+  /* line 367, ../scss/main.scss */
   #site-header {
     height: 11em;
   }
-  /* line 369, ../scss/main.scss */
+  /* line 370, ../scss/main.scss */
   #site-header > * {
     margin-right: 2em;
   }
 }
-/* line 378, ../scss/main.scss */
+/* line 379, ../scss/main.scss */
 #site-nav ul {
   display: none;
 }
@@ -770,13 +831,13 @@ $header-icon-min:10em; */
 /* ****************************************
 	Tophat
 ******************************************/
-/* line 412, ../scss/main.scss */
+/* line 413, ../scss/main.scss */
 #tophat {
   padding: 4em;
   background: #666;
   color: #fff;
 }
-/* line 417, ../scss/main.scss */
+/* line 418, ../scss/main.scss */
 #tophat h1 {
   margin: 0px;
   line-height: 1em;
@@ -785,34 +846,30 @@ $header-icon-min:10em; */
 /* ****************************************
 	Content-Body and Sidebar
 ******************************************/
-/* line 428, ../scss/main.scss */
+/* line 429, ../scss/main.scss */
 #content-wrap {
   min-height: 85em;
 }
 
-/* line 432, ../scss/main.scss */
+/* line 433, ../scss/main.scss */
 #content-body, #sidebar {
   padding: 4em;
 }
 
-/* line 436, ../scss/main.scss */
+/* line 437, ../scss/main.scss */
 #sidebar {
-  background: #999;
+  background: #ccc;
+  padding-right: 0px;
 }
 
-/* line 440, ../scss/main.scss */
+/* line 442, ../scss/main.scss */
 .sidebar-module {
-  background-color: rgba(255, 255, 255, 0.5);
-  padding: 2em;
+  /* padding:$m-content-margin-int / 2 * 1em; */
   margin-bottom: 4em;
-}
-/* line 445, ../scss/main.scss */
-.sidebar-module p {
-  margin: 0px;
 }
 
 @media screen and (orientation: landscape) and (min-height: 650px) {
-  /* line 451, ../scss/main.scss */
+  /* line 448, ../scss/main.scss */
   #content-wrap {
     display: -webkit-box;
     display: -moz-box;
@@ -824,7 +881,7 @@ $header-icon-min:10em; */
     box-orient: horizontal;
   }
 
-  /* line 456, ../scss/main.scss */
+  /* line 453, ../scss/main.scss */
   #content-main {
     -webkit-box-flex: 1;
     -moz-box-flex: 1;
@@ -832,7 +889,7 @@ $header-icon-min:10em; */
     box-flex: 1;
   }
 
-  /* line 460, ../scss/main.scss */
+  /* line 457, ../scss/main.scss */
   #sidebar {
     -webkit-box-flex: 0;
     -moz-box-flex: 0;
@@ -840,7 +897,7 @@ $header-icon-min:10em; */
     box-flex: 0;
   }
 
-  /* line 464, ../scss/main.scss */
+  /* line 461, ../scss/main.scss */
   .sidebar-module {
     width: 300px;
     box-sizing: border-box;
@@ -849,14 +906,14 @@ $header-icon-min:10em; */
 /* ****************************************
 	Footer
 ******************************************/
-/* line 475, ../scss/main.scss */
+/* line 472, ../scss/main.scss */
 #site-footer {
   padding: 4em;
   background: #666;
   color: #fff;
   min-height: 15em;
 }
-/* line 481, ../scss/main.scss */
+/* line 478, ../scss/main.scss */
 #site-footer p {
   margin: 0px;
 }
@@ -884,18 +941,18 @@ $header-icon-min:10em; */
         }
     }
 } */
-/* line 514, ../scss/main.scss */
+/* line 511, ../scss/main.scss */
 .stream-item {
   margin-bottom: 2em;
 }
-/* line 520, ../scss/main.scss */
+/* line 517, ../scss/main.scss */
 .stream-item .stream-image {
   margin-right: 2em;
   float: left;
   width: 40em;
   height: 40em;
 }
-/* line 526, ../scss/main.scss */
+/* line 523, ../scss/main.scss */
 .stream-item .stream-image img {
   width: 100%;
   height: auto;

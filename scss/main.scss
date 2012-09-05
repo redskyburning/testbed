@@ -1,5 +1,5 @@
 @import 'compass/css3';
-
+@import 'functions.scss';
 @import 'base.scss';
 
 /* ==================================
@@ -42,6 +42,7 @@ $d-content-margin:$t-content-margin-int * 1em;
 ******************************************/ 
 
 html {
+	font-size:1vm;
 	font-size:1vmin;
 	font-family: 'Lato', sans-serif;
 	font-weight:400;
@@ -432,19 +433,15 @@ $t-header-min:$t-header-min-int * 1em;
 #content-body, #sidebar {
 	padding:$m-content-margin;
 }
-
+ 
 #sidebar {
-	background:#999;
+	background:#ccc;
+    padding-right:0px;
 }
 
 .sidebar-module {
-	background-color:rgba(255,255,255,0.5);
-	padding:$m-content-margin-int / 2 * 1em;
+	/* padding:$m-content-margin-int / 2 * 1em; */
 	margin-bottom:$m-content-margin;
-	
-	p {
-		margin:0px;
-	}
 }
 
 @media screen and (orientation:landscape) and (min-height:650px) {

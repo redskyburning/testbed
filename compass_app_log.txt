@@ -778,3 +778,253 @@
 2012-09-04 22:53:42 overwrite css/main.css 
 2012-09-04 22:54:04 overwrite css/main.css 
 2012-09-04 22:54:16 overwrite css/main.css 
+2012-09-05 13:55:13 overwrite css/main.css 
+2012-09-05 13:55:28 overwrite css/main.css 
+2012-09-05 13:55:38 overwrite css/main.css 
+2012-09-05 13:55:46 overwrite css/main.css 
+2012-09-05 14:01:16 overwrite css/main.css 
+2012-09-05 14:02:10 overwrite css/main.css 
+2012-09-05 14:05:05 overwrite css/main.css 
+2012-09-05 14:05:05     error scss/scet.scss (Line 2: Undefined variable: "$fs-h1".)
+2012-09-05 14:05:05 overwrite css/scet.css 
+2012-09-05 14:05:08 overwrite css/main.css 
+2012-09-05 14:05:37 overwrite css/main.css 
+2012-09-05 14:05:37     error scss/scet.scss (Line 2: Undefined variable: "$fs-h1".)
+2012-09-05 14:05:37 identical css/scet.css 
+2012-09-05 14:05:47 overwrite css/main.css 
+2012-09-05 14:05:47     error scss/scet.scss (Line 2: Undefined variable: "$fs-h1".)
+2012-09-05 14:05:47 identical css/scet.css 
+2012-09-05 14:05:56 overwrite css/main.css 
+2012-09-05 14:05:56     error scss/scet.scss (Line 2: Undefined variable: "$fs-h1".)
+2012-09-05 14:05:56 identical css/scet.css 
+2012-09-05 14:06:37 overwrite css/main.css 
+2012-09-05 14:06:37     error scss/scet.scss (Line 2: Undefined variable: "$fs-h1".)
+2012-09-05 14:06:37 identical css/scet.css 
+2012-09-05 14:07:05 overwrite css/main.css 
+2012-09-05 14:07:05     error scss/scet.scss (Line 2: Undefined variable: "$fs-h1".)
+2012-09-05 14:07:05 identical css/scet.css 
+2012-09-05 14:07:34 overwrite css/main.css 
+2012-09-05 14:07:34     error scss/scet.scss (Line 2: Undefined variable: "$fs-h1".)
+2012-09-05 14:07:34 identical css/scet.css 
+2012-09-05 14:07:43 overwrite css/main.css 
+2012-09-05 14:07:43     error scss/scet.scss (Line 2: Undefined variable: "$fs-h1".)
+2012-09-05 14:07:43 identical css/scet.css 
+2012-09-05 14:08:26 overwrite css/main.css 
+2012-09-05 14:31:54 overwrite css/main.css 
+2012-09-05 14:31:54     error scss/scet.scss (Line 2: Undefined variable: "$fs-h1".)
+2012-09-05 14:31:54 identical css/scet.css 
+2012-09-05 14:32:28 overwrite css/main.css 
+2012-09-05 14:32:28     error scss/scet.scss (Line 2: Undefined variable: "$fs-h1".)
+2012-09-05 14:32:28 identical css/scet.css 
+2012-09-05 14:32:50 overwrite css/main.css 
+2012-09-05 14:33:02     error scss/scet.scss (Line 2: Undefined variable: "$fs-h1".)
+2012-09-05 14:33:02 identical css/scet.css 
+2012-09-05 14:33:54 overwrite css/main.css 
+2012-09-05 14:34:19 identical css/main.css 
+2012-09-05 14:35:18 overwrite css/main.css 
+2012-09-05 14:35:18     error scss/scet.scss (Line 2: Undefined variable: "$fs-h1".)
+2012-09-05 14:35:18 identical css/scet.css 
+2012-09-05 14:36:09 overwrite css/main.css 
+2012-09-05 14:36:09     error scss/scet.scss (Line 2: Undefined variable: "$fs-h1".)
+2012-09-05 14:36:09 identical css/scet.css 
+2012-09-05 14:36:28 overwrite css/main.css 
+2012-09-05 14:36:28     error scss/scet.scss (Line 2: Undefined variable: "$fs-h1".)
+2012-09-05 14:36:28 identical css/scet.css 
+2012-09-05 14:36:54 overwrite css/main.css 
+2012-09-05 14:36:54     error scss/scet.scss (Line 2: Undefined variable: "$fs-h1".)
+2012-09-05 14:36:54 identical css/scet.css 
+2012-09-05 14:36:58 overwrite css/main.css 
+2012-09-05 14:36:58     error scss/scet.scss (Line 2: Undefined variable: "$fs-h1".)
+2012-09-05 14:36:58 identical css/scet.css 
+2012-09-05 14:40:55 overwrite css/main.css 
+2012-09-05 14:40:55     error scss/scet.scss (Line 2: Undefined variable: "$fs-h1".)
+2012-09-05 14:40:55 identical css/scet.css 
+2012-09-05 14:41:57 overwrite css/main.css 
+2012-09-05 14:41:57     error scss/scet.scss (Line 2: Undefined variable: "$fs-h1".)
+2012-09-05 14:41:57 identical css/scet.css 
+2012-09-05 14:42:10 overwrite css/main.css 
+2012-09-05 14:42:10     error scss/scet.scss (Line 2: Undefined variable: "$fs-h1".)
+2012-09-05 14:42:10 identical css/scet.css 
+2012-09-05 14:42:37 overwrite css/main.css 
+2012-09-05 14:42:37     error scss/scet.scss (Line 2: Undefined variable: "$fs-h1".)
+2012-09-05 14:42:37 identical css/scet.css 
+2012-09-05 14:42:57 identical css/main.css 
+2012-09-05 14:42:57     error scss/scet.scss (Line 2: Undefined variable: "$fs-h1".)
+2012-09-05 14:42:57 identical css/scet.css 
+2012-09-05 14:43:28 overwrite css/main.css 
+2012-09-05 14:43:28     error scss/scet.scss (Line 2: Undefined variable: "$fs-h1".)
+2012-09-05 14:43:28 identical css/scet.css 
+2012-09-05 14:44:16 overwrite css/main.css 
+2012-09-05 14:44:16     error scss/scet.scss (Line 2: Undefined variable: "$fs-h1".)
+2012-09-05 14:44:16 identical css/scet.css 
+2012-09-05 14:45:10 overwrite css/main.css 
+2012-09-05 14:45:10     error scss/scet.scss (Line 2: Undefined variable: "$fs-h1".)
+2012-09-05 14:45:10 identical css/scet.css 
+2012-09-05 14:46:45 overwrite css/main.css 
+2012-09-05 14:46:45     error scss/scet.scss (Line 2: Undefined variable: "$fs-h1".)
+2012-09-05 14:46:45 identical css/scet.css 
+2012-09-05 14:48:34 overwrite css/main.css 
+2012-09-05 14:48:34     error scss/scet.scss (Line 2: Undefined variable: "$fs-h1".)
+2012-09-05 14:48:34 identical css/scet.css 
+2012-09-05 14:50:01 overwrite css/main.css 
+2012-09-05 14:50:01     error scss/scet.scss (Line 2: Undefined variable: "$fs-h1".)
+2012-09-05 14:50:01 identical css/scet.css 
+2012-09-05 14:50:21 identical css/main.css 
+2012-09-05 14:50:21     error scss/scet.scss (Line 2: Undefined variable: "$fs-h1".)
+2012-09-05 14:50:21 identical css/scet.css 
+2012-09-05 15:02:34 overwrite css/main.css 
+2012-09-05 15:02:34     error scss/scet.scss (Line 2: Undefined variable: "$fs-h1".)
+2012-09-05 15:02:34 identical css/scet.css 
+2012-09-05 15:03:04 identical css/main.css 
+2012-09-05 15:03:04     error scss/scet.scss (Line 2: Undefined variable: "$fs-h1".)
+2012-09-05 15:03:04 identical css/scet.css 
+2012-09-05 15:03:13 overwrite css/main.css 
+2012-09-05 15:03:13     error scss/scet.scss (Line 2: Undefined variable: "$fs-h1".)
+2012-09-05 15:03:13 identical css/scet.css 
+2012-09-05 15:03:25 overwrite css/main.css 
+2012-09-05 15:03:25     error scss/scet.scss (Line 2: Undefined variable: "$fs-h1".)
+2012-09-05 15:03:25 identical css/scet.css 
+2012-09-05 15:04:40 overwrite css/main.css 
+2012-09-05 15:04:40     error scss/scet.scss (Line 2: Undefined variable: "$fs-h1".)
+2012-09-05 15:04:40 identical css/scet.css 
+2012-09-05 15:05:13 overwrite css/main.css 
+2012-09-05 15:05:13     error scss/scet.scss (Line 2: Undefined variable: "$fs-h1".)
+2012-09-05 15:05:13 identical css/scet.css 
+2012-09-05 15:05:30 overwrite css/main.css 
+2012-09-05 15:05:30     error scss/scet.scss (Line 2: Undefined variable: "$fs-h1".)
+2012-09-05 15:05:30 identical css/scet.css 
+2012-09-05 15:06:04 overwrite css/main.css 
+2012-09-05 15:06:04     error scss/scet.scss (Line 2: Undefined variable: "$fs-h1".)
+2012-09-05 15:06:04 identical css/scet.css 
+2012-09-05 15:06:40 overwrite css/main.css 
+2012-09-05 15:06:40     error scss/scet.scss (Line 2: Undefined variable: "$fs-h1".)
+2012-09-05 15:06:40 identical css/scet.css 
+2012-09-05 15:07:27 overwrite css/main.css 
+2012-09-05 15:07:27     error scss/scet.scss (Line 2: Undefined variable: "$fs-h1".)
+2012-09-05 15:07:27 identical css/scet.css 
+2012-09-05 15:07:33 overwrite css/main.css 
+2012-09-05 15:07:33     error scss/scet.scss (Line 2: Undefined variable: "$fs-h1".)
+2012-09-05 15:07:33 identical css/scet.css 
+2012-09-05 15:07:51 overwrite css/main.css 
+2012-09-05 15:07:51     error scss/scet.scss (Line 2: Undefined variable: "$fs-h1".)
+2012-09-05 15:07:51 identical css/scet.css 
+2012-09-05 15:10:51 overwrite css/main.css 
+2012-09-05 15:10:51     error scss/scet.scss (Line 2: Undefined variable: "$fs-h1".)
+2012-09-05 15:10:51 identical css/scet.css 
+2012-09-05 15:13:51 overwrite css/main.css 
+2012-09-05 15:13:51     error scss/scet.scss (Line 2: Undefined variable: "$fs-h1".)
+2012-09-05 15:13:51 identical css/scet.css 
+2012-09-05 15:14:16     error scss/main.scss (Line 39 of scss/scet.scss: Undefined variable: "$sidebar-h1-ad".)
+2012-09-05 15:14:16 overwrite css/main.css 
+2012-09-05 15:14:16     error scss/scet.scss (Line 2: Undefined variable: "$fs-h1".)
+2012-09-05 15:14:16 identical css/scet.css 
+2012-09-05 15:14:28 overwrite css/main.css 
+2012-09-05 15:14:28     error scss/scet.scss (Line 2: Undefined variable: "$fs-h1".)
+2012-09-05 15:14:28 identical css/scet.css 
+2012-09-05 15:15:13 overwrite css/main.css 
+2012-09-05 15:15:13     error scss/scet.scss (Line 2: Undefined variable: "$fs-h1".)
+2012-09-05 15:15:13 identical css/scet.css 
+2012-09-05 15:15:22 overwrite css/main.css 
+2012-09-05 15:15:22     error scss/scet.scss (Line 2: Undefined variable: "$fs-h1".)
+2012-09-05 15:15:22 identical css/scet.css 
+2012-09-05 15:15:34 overwrite css/main.css 
+2012-09-05 15:15:34     error scss/scet.scss (Line 2: Undefined variable: "$fs-h1".)
+2012-09-05 15:15:34 identical css/scet.css 
+2012-09-05 15:16:03 overwrite css/main.css 
+2012-09-05 15:16:03     error scss/scet.scss (Line 2: Undefined variable: "$fs-h1".)
+2012-09-05 15:16:03 identical css/scet.css 
+2012-09-05 15:16:09 overwrite css/main.css 
+2012-09-05 15:16:09     error scss/scet.scss (Line 2: Undefined variable: "$fs-h1".)
+2012-09-05 15:16:09 identical css/scet.css 
+2012-09-05 15:16:28 overwrite css/main.css 
+2012-09-05 15:16:28     error scss/scet.scss (Line 2: Undefined variable: "$fs-h1".)
+2012-09-05 15:16:28 identical css/scet.css 
+2012-09-05 15:17:19 overwrite css/main.css 
+2012-09-05 15:17:19     error scss/scet.scss (Line 2: Undefined variable: "$fs-h1".)
+2012-09-05 15:17:19 identical css/scet.css 
+2012-09-05 15:17:39 overwrite css/main.css 
+2012-09-05 15:17:39     error scss/scet.scss (Line 2: Undefined variable: "$fs-h1".)
+2012-09-05 15:17:39 identical css/scet.css 
+2012-09-05 15:18:42 overwrite css/main.css 
+2012-09-05 15:18:42     error scss/scet.scss (Line 2: Undefined variable: "$fs-h1".)
+2012-09-05 15:18:42 identical css/scet.css 
+2012-09-05 15:22:48     error scss/main.scss (Line 2: File to import not found or unreadable: functions.scss.
+Load paths:
+  C:/wamp/www/testbed/scss
+  C:/Users/bwebb/Documents/compass/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/bwebb/Documents/compass/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/bwebb/Documents/compass/compass.app/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  C:/Users/bwebb/Documents/compass/compass.app/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  C:/Users/bwebb/Documents/compass/compass.app/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  C:/Users/bwebb/Documents/compass/compass.app/lib/ruby/compass_extensions/thomas-mcdonald-bootstrap-sass-831f25b/vendor/assets/stylesheets
+  C:/Users/bwebb/Documents/compass/compass.app/lib/ruby/compass_extensions/susy-1.0/sass
+  C:/Users/bwebb/Documents/compass/compass.app/lib/ruby/compass_common/sassy-math-1.2/stylesheets
+  C:/Users/bwebb/Documents/compass/compass.app/lib/ruby/compass_common/modular-scale-1.0.2/stylesheets
+  C:/Users/bwebb/Documents/compass/compass.app/lib/ruby/compass_extensions/zurb-foundation-3.0.9/scss
+  Compass::SpriteImporter)
+2012-09-05 15:22:48 overwrite css/main.css 
+2012-09-05 15:22:59    create css/functions.css 
+2012-09-05 15:23:00 overwrite css/main.css 
+2012-09-05 15:27:49 identical css/functions.css 
+2012-09-05 15:27:49 overwrite css/main.css 
+2012-09-05 15:28:40 identical css/main.css 
+2012-09-05 15:28:40     error scss/scet.scss (Line 2: Undefined variable: "$fs-h1".)
+2012-09-05 15:28:40 identical css/scet.css 
+2012-09-05 15:29:37 identical css/main.css 
+2012-09-05 15:29:37     error scss/scet.scss (Line 2: Undefined variable: "$fs-h1".)
+2012-09-05 15:29:37 identical css/scet.css 
+2012-09-05 15:29:57 identical css/main.css 
+2012-09-05 15:29:57     error scss/scet.scss (Line 2: Undefined variable: "$fs-h1".)
+2012-09-05 15:29:57 identical css/scet.css 
+2012-09-05 15:30:40 overwrite css/main.css 
+2012-09-05 15:30:40     error scss/scet.scss (Line 2: Undefined variable: "$fs-h1".)
+2012-09-05 15:30:40 identical css/scet.css 
+2012-09-05 15:30:52     error scss/main.scss (Line 44 of scss/scet.scss: Undefined variable: "$sidebar-pad-em".)
+2012-09-05 15:30:52 overwrite css/main.css 
+2012-09-05 15:30:52     error scss/scet.scss (Line 2: Undefined variable: "$fs-h1".)
+2012-09-05 15:30:52 identical css/scet.css 
+2012-09-05 15:32:14 identical css/functions.css 
+2012-09-05 15:32:14     error scss/main.scss (Line 44 of scss/scet.scss: Undefined variable: "$sidebar-pad-em".)
+2012-09-05 15:32:14 identical css/main.css 
+2012-09-05 15:32:14     error scss/scet.scss (Line 2: Undefined variable: "$fs-h1".)
+2012-09-05 15:32:14 identical css/scet.css 
+2012-09-05 15:32:58 identical css/functions.css 
+2012-09-05 15:32:58 overwrite css/main.css 
+2012-09-05 15:32:58     error scss/scet.scss (Line 2: Undefined variable: "$fs-h1".)
+2012-09-05 15:32:58 identical css/scet.css 
+2012-09-05 15:37:00 overwrite css/main.css 
+2012-09-05 15:37:00     error scss/scet.scss (Line 2: Undefined variable: "$fs-h1".)
+2012-09-05 15:37:00 identical css/scet.css 
+2012-09-05 15:38:22 overwrite css/main.css 
+2012-09-05 15:38:22     error scss/scet.scss (Line 2: Undefined variable: "$fs-h1".)
+2012-09-05 15:38:22 identical css/scet.css 
+2012-09-05 15:40:07 identical css/main.css 
+2012-09-05 15:40:07     error scss/scet.scss (Line 2: Undefined variable: "$fs-h1".)
+2012-09-05 15:40:07 identical css/scet.css 
+2012-09-05 15:42:31 overwrite css/main.css 
+2012-09-05 15:42:31     error scss/scet.scss (Line 2: Undefined variable: "$fs-h1".)
+2012-09-05 15:42:31 identical css/scet.css 
+2012-09-05 15:42:54 overwrite css/main.css 
+2012-09-05 15:42:54     error scss/scet.scss (Line 2: Undefined variable: "$fs-h1".)
+2012-09-05 15:42:54 identical css/scet.css 
+2012-09-05 15:43:49 overwrite css/main.css 
+2012-09-05 15:43:49     error scss/scet.scss (Line 2: Undefined variable: "$fs-h1".)
+2012-09-05 15:43:49 identical css/scet.css 
+2012-09-05 15:45:01 overwrite css/main.css 
+2012-09-05 15:45:01     error scss/scet.scss (Line 2: Undefined variable: "$fs-h1".)
+2012-09-05 15:45:01 identical css/scet.css 
+2012-09-05 15:45:10 overwrite css/main.css 
+2012-09-05 15:45:10     error scss/scet.scss (Line 2: Undefined variable: "$fs-h1".)
+2012-09-05 15:45:10 identical css/scet.css 
+2012-09-05 15:45:55 overwrite css/main.css 
+2012-09-05 15:45:55     error scss/scet.scss (Line 2: Undefined variable: "$fs-h1".)
+2012-09-05 15:45:55 identical css/scet.css 
+2012-09-05 15:46:40 identical css/main.css 
+2012-09-05 15:46:40     error scss/scet.scss (Line 2: Undefined variable: "$fs-h1".)
+2012-09-05 15:46:40 identical css/scet.css 
+2012-09-05 15:46:48 overwrite css/main.css 
+2012-09-05 15:46:48     error scss/scet.scss (Line 2: Undefined variable: "$fs-h1".)
+2012-09-05 15:46:48 identical css/scet.css 
+2012-09-05 15:46:57 overwrite css/main.css 
+2012-09-05 15:46:57     error scss/scet.scss (Line 2: Undefined variable: "$fs-h1".)
+2012-09-05 15:46:57 identical css/scet.css 
